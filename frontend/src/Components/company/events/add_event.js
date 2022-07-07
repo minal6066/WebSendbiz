@@ -38,7 +38,7 @@ const CompanyServicesData = [
     delivery_time: '10 days',
     brochure: 'file',
     short_desc:
-      'SendBiz is a platform that allows blah blah blah Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ',
+      'JobHunt is a platform that allows blah blah blah Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ',
     full_desc: 'Enter Details',
     isActive: true, // true=Active, false=Deleted
   },

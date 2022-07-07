@@ -315,7 +315,7 @@ class Companysignup extends Component {
                       htmlFor="exampleCheck1"
                     >
                       &nbsp;&nbsp;I have read and accepted the terms and
-                      conditions published by sendbiz.com. &nbsp;&nbsp;
+                      conditions published by JobHunt.com. &nbsp;&nbsp;
                       <small className="cursor terms-link">Read all</small>
                     </label>
                   </Checkbox>

@@ -4,7 +4,7 @@
 
 // mongoose
 //   .connect(
-//     'mongodb+srv://dbSendbiz:J5zJc3mxs42AE6NO@sendbiz0.r2eon.mongodb.net/sendbiz2020?retryWrites=true&w=majority',
+//     'mongodb+srv://dbJobHunt:J5zJc3mxs42AE6NO@JobHunt0.r2eon.mongodb.net/JobHunt2020?retryWrites=true&w=majority',
 //     {
 //       keepAlive: 1,
 //       useNewUrlParser: true,

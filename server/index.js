@@ -87,10 +87,4 @@ function connect() {
       console.log(`connected to database of user: ${data.connections[0].user}`)
     )
     .catch(console.log);
-  // mongodb://sumitpal:sumit@123@sandbiz-shard-00-00.fisqt.mongodb.net:27017,sandbiz-shard-00-01.fisqt.mongodb.net:27017,sandbiz-shard-00-02.fisqt.mongodb.net:27017/sendbiz2020?ssl=true&replicaSet=atlas-105z91-shard-0&authSource=admin&retryWrites=true&w=majority
-  // mongodb+srv://dbSendbiz:J5zJc3mxs42AE6NO@sendbiz0.r2eon.mongodb.net/sendbiz2020?retryWrites=true&w=majority
-  // mongodb+srv://sumitpal:sumit@123@sandbiz.fisqt.mongodb.net/sendbiz2020?retryWrites=true&w=majority
-  // mongodb+srv://sumitpal:sumit@123@sandbiz.fisqt.mongodb.net
-  // mongodb+srv://dbSendbiz:J5zJc3mxs42AE6NO@sendbiz0.r2eon.mongodb.net
-  // mongodb+srv://sendbiz0.r2eon.mongodb.net
 }

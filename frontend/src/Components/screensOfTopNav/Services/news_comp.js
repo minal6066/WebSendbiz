@@ -78,7 +78,7 @@ export default class NewsComp extends Component {
       <>
         <Row className="apply-job-news-bottom" style={{ paddingTop: 70 }}>
           <p className="apply-job-news-bottom-para-1">News</p>
-          <p className="apply-job-news-bottom-para-2">Inside SendBiz</p>
+          <p className="apply-job-news-bottom-para-2">Inside JobHunt</p>
         </Row>
         <Row justify="center">
           <div className={'d-flex justify-content-center w-100'}>

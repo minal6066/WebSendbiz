@@ -35,7 +35,7 @@ const AboutUs =(props) =>{
             <Row>
                 <Col span={1}></Col>
                 <Col span={22} className="red-tab">
-                    Sen<b>db</b>iz has been a part of over <b>50 million</b> Companies</Col>
+                    Jo<b>bH</b>unt has been a part of over <b>50 million</b> Companies</Col>
                 <Col span={1}></Col>
             </Row>
             <Row gutter={50}>
@@ -45,10 +45,10 @@ const AboutUs =(props) =>{
                         <img className="box-icon" src={process.env.PUBLIC_URL + "/growth-icon.png"}/>
                         <div className="box-heading">Ecosystem for Growth</div>
                         <p className="box-para">
-                            SendBiz is a marketplace to list your company, build your brand, and achieve the growth you deserve.
+                            JobHunt is a marketplace to list your company, build your brand, and achieve the growth you deserve.
                             <br/>Make your company profile with our in-built feature of images, videos, and blog. 
                             <br/>• List your products/services, collaborators, jobs, news 
-                            <br/>• Gain the reviews from your target customers Today, visibility is a major asset in the development of companies, in recruitment and sales. With SendBiz you can make your company famous all over the world
+                            <br/>• Gain the reviews from your target customers Today, visibility is a major asset in the development of companies, in recruitment and sales. With JobHunt you can make your company famous all over the world
                         </p>
                     </div>
                 </Col>
@@ -57,11 +57,11 @@ const AboutUs =(props) =>{
                         <img className="box-icon join-icon" src={process.env.PUBLIC_URL + "/join.png"}/>
                         <div className="box-heading">How to join us now</div>
                         <p className="box-para">
-                            You can join and avail all the benefits of SendBiz in 3 small steps
+                            You can join and avail all the benefits of JobHunt in 3 small steps
                             <br/>• Purchase our subscription package 
-                            <br/>• Make your SendBiz profile
+                            <br/>• Make your JobHunt profile
                             <br/>• List all the possible information Our mission is the growth of VSEs / SMEs. 
-                            We have designed a platform which will take your business from local to global. Jobs at Sendbiz offer many opportunities in a simpler, more pleasant and more productive manner. Sendbiz’s e-comm section helps to grow and promote products that are good for the planet
+                            We have designed a platform which will take your business from local to global. Jobs at JobHunt offer many opportunities in a simpler, more pleasant and more productive manner. JobHunt's e-comm section helps to grow and promote products that are good for the planet
                         </p>
                     </div>
                 </Col>

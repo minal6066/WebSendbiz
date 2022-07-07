@@ -29,23 +29,7 @@ const Features =(props) =>{
         <Header/>
         <div className='home-outer-div' style={{backgroundColor:"white"}} >
         <img className='top-img' src={process.env.PUBLIC_URL + "/growth-feature.png"}/>
-                        
-            
-            {/* <div style={{backgroundColor:'#ffffff'}} className='feature-block'>
-                <div className="feature-heading">
-                    Growth more <span style={{color:'#C01718', fontWeight:'900'}}>efficient</span>
-                </div>
-                <p className="feature-para">
-                    When it comes to developing new features for SendBiz,
-                    <br/>
-                    our philosophy is simple - it’s all about growing your business.
-                    <br/>
-                    We are convinced that visibility and proximity will increase
-                    sales of your products and services and allow you
-                    to hire next door.
-                </p>
-            </div>
-            */ }
+                    
                      
         
         <div className='slider-look' style={{alignItems:'center', backgroundColor:'#F4F6F9', width:'100%'}}>
@@ -193,7 +177,7 @@ const Features =(props) =>{
          
         </div>
         <div className="feature-button">
-            <Button type="primary" size='large' className="feature-button-style">Try Sendbiz Now</Button>                            
+            <Button type="primary" size='large' className="feature-button-style">Try JobHunt Now</Button>                            
         </div> 
         </div>
         <div className='fotter-modif'>

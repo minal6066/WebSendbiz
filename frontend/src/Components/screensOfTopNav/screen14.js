@@ -244,7 +244,7 @@ class Job extends Component {
           </Col>
         </Row>
         <div className="row m-0" style={{ paddingTop: 15 }}>
-          <div className="col-sm-6 col-xs-6 col-md-6 p-0">
+          <div className="col-sm-7 col-xs-7 col-md-7 p-0">
             <p className="jobs-count-on-jobs m-0">Jobs found</p>
             <Card
               searchingValue={this.state.searchingValue}
@@ -255,9 +255,9 @@ class Job extends Component {
               ref={this.jobTypeElement}
             />
           </div>
-          <div className="col-sm-6 col-xs-6 col-md-6 p-0">
+          {/* <div className="col-sm-6 col-xs-6 col-md-6 p-0">
             <CustomCompanyMap renderfrom="jobs" markers={job_markers} />
-          </div>
+          </div> */}
         </div>
 
         <Footer />

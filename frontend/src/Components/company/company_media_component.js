@@ -35,7 +35,7 @@ class CompanyMedia extends Component{
 			<>
 			<Tabs className="company_media_tabs" tabBarExtraContent={operations} defaultActiveKey="1" type="card" style={{backgroundColor:"white"}} >
 	          <TabPane tab="5 Images" key="1">
-	            <p className="company_media_image_para">In order to have the most beautiful card do not hesitate to call upon professionals of the photo or video. Click here if there are some who are registered in Sendbiz near you.</p>
+	            <p className="company_media_image_para">In order to have the most beautiful card do not hesitate to call upon professionals of the photo or video. Click here if there are some who are registered in JobHunt near you.</p>
 	          	
 	          	<Row style={{paddingBottom:"12px",paddingTop:"25px"}}>
 	          	{ media.map((val,index)=>{
@@ -68,7 +68,7 @@ class CompanyMedia extends Component{
 	          </TabPane>
 	          
 	          <TabPane tab="2 Videos" key="2">
-	            <p className="company_media_image_para">In order to have the most beautiful card do not hesitate to call upon professionals of the photo or video. Click here if there are some who are registered in Sendbiz near you.</p>
+	            <p className="company_media_image_para">In order to have the most beautiful card do not hesitate to call upon professionals of the photo or video. Click here if there are some who are registered in JobHunt near you.</p>
 	          	{ media.map((val,index)=>{
 	          		if(val.fileType === "image"){
 	          			if(index%2==0){

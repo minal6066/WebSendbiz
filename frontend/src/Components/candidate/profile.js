@@ -61,16 +61,7 @@ class Profile extends Component {
 		let loader = true
 		let uploadedImage = this.state.uploadedImage
 		let data = {};
-		// if(this.props.data !== null){
-		// 	loader = this.props.authloading
-		// 	data = this.props.data
-		// 	console.log(data.data._id)
-		// 	if(data.data.data.can_detail.profile !== ""){
-		// 		let url = data.data.data.can_detail.profile
-		// 		uploadedImage = "https://sendbizbucket.s3.eu-west-3.amazonaws.com/"+url
-		// 	}
-		// }
-		// else{
+
 			loader = this.props.isloading
 			data = this.props.infodata
 			if(!loader){
@@ -81,7 +72,6 @@ class Profile extends Component {
 				}
 			}
 			
-		// }
 		return(
 			<>
 			{ loader ? (

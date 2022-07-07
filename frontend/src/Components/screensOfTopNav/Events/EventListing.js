@@ -150,7 +150,7 @@ export default class EventListing extends Component {
           </Col>
         </Row>
         <Row>
-          <Col span={12}>
+          <Col span={14}>
             <EventListingCard
               searchQuery={this.state.searchQuery}
               company={this.state.company}
@@ -158,9 +158,9 @@ export default class EventListing extends Component {
               EventDetailRender={(e, data) => this.EventDetailRender(e, data)}
             />
           </Col>
-          <Col span={12}>
+          {/* <Col span={12}>
             <CustomCompanyMap renderfrom="events" markers={markers} />
-          </Col>
+          </Col> */}
         </Row>
       </div>
     );

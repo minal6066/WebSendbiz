@@ -95,7 +95,7 @@ class Signup extends Component {
                     paddingTop: 8,
                   }}
                 >
-                  SENDBIZ
+                  JOBHUNT
                 </h5>
               </li>
             </ul>

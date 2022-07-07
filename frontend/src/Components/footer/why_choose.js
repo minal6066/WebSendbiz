@@ -19,7 +19,7 @@ const ChooseUs =(props) =>{
         <div className='home-outer-div' style={{backgroundColor:"white"}} >
         <img className='top-img' src={process.env.PUBLIC_URL + "/choose-bg.png"}/>
         <div className="feature-button">
-            <Button type="primary" size='large' className="feature-button-style choose-button">Try Sendbiz Now</Button>                            
+            <Button type="primary" size='large' className="feature-button-style choose-button">Try JobHunt Now</Button>                            
         </div> 
         <div className="choose-heading">
             Your One stop Solution for HR to Sales
@@ -28,7 +28,7 @@ const ChooseUs =(props) =>{
             <Col span={2}></Col>
             <Col span={17}>
                 <div className="para-heading">
-                    Sendbiz allows you to create a company profile, list open vacancies, and grow the revenue by selling product /services.
+                    JobHunt allows you to create a company profile, list open vacancies, and grow the revenue by selling product /services.
                 </div>
                 <Row style={{paddingTop:'38px'}}>
                     <Col span={1}>
@@ -40,7 +40,7 @@ const ChooseUs =(props) =>{
                     </Col>
                     <Col span={1}></Col>
                     <Col span={23} className='choose-points'>
-                        Create your company's profile page on SendBiz.
+                        Create your company's profile page on JobHunt.
                     </Col>
                 </Row>
                 <Row style={{paddingTop:'20px'}}>
@@ -92,7 +92,7 @@ const ChooseUs =(props) =>{
                     </Col>
                     <Col span={1}></Col>
                     <Col span={23} className='choose-points'>
-                        SendBiz Premium Plan offers unlimited users.
+                        JobHunt Premium Plan offers unlimited users.
                     </Col>
                 </Row>
             </Col>
@@ -106,7 +106,7 @@ const ChooseUs =(props) =>{
             <Col span={2}></Col>
             <Col span={17}>
                 <div className="para-heading">
-                    With SendBiz you thrive from small business to global company   
+                    With JobHunt you thrive from small business to global company   
                 </div>
                 <Row style={{paddingTop:'38px'}}>
                     <Col span={1}>

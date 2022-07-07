@@ -57,7 +57,7 @@ const CompanyWindow = (props) => {
       </Row>
       <div className="custom-map-info-window-text">
         <p className="w-100 m-0 custom-map-info-window-title">Data Analyst</p>
-        <p className="w-100 m-0 custom-map-info-window-company-name">SENDBIZ</p>
+        <p className="w-100 m-0 custom-map-info-window-company-name">JobHunt</p>
         <p className="w-100 m-0 custom-map-info-window-location">California</p>
       </div>
     </Card>

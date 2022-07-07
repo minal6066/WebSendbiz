@@ -191,7 +191,7 @@ export default class ServiceListing extends Component {
           </Col>
         </Row>
         <Row>
-          <Col span={12}>
+          <Col span={14}>
             <ServiceListingCard
               searchQuery={this.state.searchQuery}
               company={this.state.company}
@@ -203,9 +203,9 @@ export default class ServiceListing extends Component {
               }
             />
           </Col>
-          <Col span={12}>
+          {/* <Col span={12}>
             <CustomCompanyMap renderfrom="products" markers={markers} />
-          </Col>
+          </Col> */}
         </Row>
       </div>
     );

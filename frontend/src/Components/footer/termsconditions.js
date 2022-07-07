@@ -81,11 +81,11 @@ const TermsnCond =(props) =>{
                        [Corporate Fax Number] <br/>
                        [Email Address]
                        <div className='tnc-check'>
-                       By checking the checkbox you will agree to the terms and conditions published by SendBiz .com and hear by state that you accept the terms and conditions and privacy policy and cookie policy of sendbiz.com
+                       By checking the checkbox you will agree to the terms and conditions published by JobHunt .com and hear by state that you accept the terms and conditions and privacy policy and cookie policy of JobHunt.com
                        </div>
                        <label className="checkbox">
                             <input type="checkbox" />
-                            <p style={{marginLeft:'20px'}}>I agree to terms and conditions published by Sendbiz.com</p>
+                            <p style={{marginLeft:'20px'}}>I agree to terms and conditions published by JobHunt.com</p>
                         </label>
             </Col>
             <Col span={3}></Col>

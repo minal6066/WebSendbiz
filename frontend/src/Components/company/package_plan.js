@@ -27,31 +27,6 @@ const PackagePlan = (props) => {
         <div className="pick-plan">Pick your Growth Plan</div>
         <PlanCards />
         <Row style={{ marginTop: '50px' }}>
-          {/* <Col span={4}></Col>
-          <Col span={16} className="add-on-card">
-            <Row gutter={30}>
-              <Col span={8}>
-                <img
-                  className="add-on-img"
-                  src={process.env.PUBLIC_URL + '/rect-package.png'}
-                />
-              </Col>
-              <Col span={14}>
-                <div className="add-on-heading">Booster Add On</div>
-                <div className="add-on-content">
-                  To boost your job offers, copany, products and services,
-                  Sendbiz offers to put you in the spotlight during searches.
-                </div>
-                <div className="add-starts">
-                  Starts from&nbsp;&nbsp;
-                  <span className="add-dollar">
-                    $&nbsp;<div className="add-ten">10&nbsp;</div>
-                    <span className="add-mo">/MO.</span>
-                  </span>
-                </div>
-              </Col>
-            </Row>
-          </Col> */}
         </Row>
         <SavedCards />
       </div>

@@ -9,7 +9,7 @@ class Resume extends Component{
         return(
             <div>
                 <div className="row">
-                    <p className="resume-1">Applied Job : Data Analyst Sendbiz</p>
+                    <p className="resume-1">Applied Job : Data Analyst JobHunt</p>
                 </div>
           
                 <Card />

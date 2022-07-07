@@ -35,7 +35,7 @@ const CompanyServicesData = [
     delivery_time: '10 days',
     brochure: 'file',
     short_desc:
-      'SendBiz is a platform that allows blah blah blah Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ',
+      'JobHunt is a platform that allows blah blah blah Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ',
     full_desc: 'Enter Details',
     isActive: true, // true=Active, false=Deleted
   },
@@ -52,7 +52,7 @@ const CompanyServicesData = [
     delivery_time: '10 days',
     brochure: 'file',
     short_desc:
-      'SendBiz is a platform that allows blah blah blah Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
+      'JobHunt is a platform that allows blah blah blah Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
     full_desc:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.',
     isActive: true, // true=Active, false=Deleted
@@ -69,7 +69,7 @@ const CompanyServicesData = [
     category: ['LifeStyle', 'Service'],
     delivery_time: '15 days',
     brochure: 'file',
-    short_desc: 'SendBiz is a platform that allows blah blah blah',
+    short_desc: 'JobHunt is a platform that allows blah blah blah',
     full_desc: 'Enter Details',
     isActive: false, // true=Active, false=Deleted
   },
@@ -85,7 +85,7 @@ const CompanyServicesData = [
     category: ['LifeStyle', 'Service'],
     delivery_time: '15 days',
     brochure: 'file',
-    short_desc: 'SendBiz is a platform that allows blah blah blah',
+    short_desc: 'JobHunt is a platform that allows blah blah blah',
     full_desc: 'Enter Details',
     isActive: true, // true=Active, false=Deleted
   },
@@ -101,7 +101,7 @@ const CompanyServicesData = [
     category: ['LifeStyle', 'Service'],
     delivery_time: '15 days',
     brochure: 'file',
-    short_desc: 'SendBiz is a platform that allows blah blah blah',
+    short_desc: 'JobHunt is a platform that allows blah blah blah',
     full_desc: 'Enter Details',
     isActive: false, // true=Active, false=Deleted
   },
@@ -162,11 +162,11 @@ class ServiseListingCard extends Component {
     console.log(category, "-----------------")
 
     let searchCat = ""
-    if (category.length > 0) {
-      category.map((val) => {
-        searchCat = searchCat + `&category=${val}`
-      })
-    }
+    // if (category.length > 0) {
+    //   category.map((val) => {
+    //     searchCat = searchCat + `&category=${val}`
+    //   })
+    // }
     let searchComp = ""
     if (company.length > 0) {
       company.map((val) => {
@@ -277,11 +277,11 @@ class ServiseListingCard extends Component {
                       <Row>
                         <Col span={data.category.length > 1 ? 24 : 6}>
                           <span style={{ marginRight: '15px' }}>
-                            {data.category.map((cat) => (
+                            {/* {data.category.map((cat) => (
                               <Tag color="volcano" className="s-price-tag">
                                 {cat}
                               </Tag>
-                            ))}
+                            ))} */}
                           </span>
                         </Col>
 

@@ -527,34 +527,6 @@ export default class AddProduct extends Component {
                   src={previewImage}
                 />
               </Modal>
-              {/* <Form.Item 
-                label={AttachMedia}
-              >
-                <Row style={{backgroundColor:'white',borderRadius:'6px',margin:'0px'}} gutter={[24,12]}>
-                  { this.state.fileList.map((val,index)=>{
-                    if( index%5 === 0 || (index%5) === 1 ){
-                      return(
-
-                        <Col span={12} key={index}>
-                          <Image
-                            src={'https://sendbizbucket.s3.eu-west-3.amazonaws.com/'+val.fileName }
-                          />
-                        </Col>
-                      )
-                    }
-                    else{
-                      return(
-                        <Col span={8} key={index} >
-                          <Image
-                            src={ 'https://sendbizbucket.s3.eu-west-3.amazonaws.com/'+val.fileName }
-                          />
-                        </Col>
-                      )
-                    }
-                  
-                })}
-                </Row>
-              </Form.Item> */}
             </Col>
           </Row>
         </Form>

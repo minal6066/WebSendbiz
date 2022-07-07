@@ -75,7 +75,7 @@ class Box extends Component {
                 alt=""
               />
               &nbsp;&nbsp;&nbsp;
-              <span style={{ color: 'black', fontWeight: 600 }}>SENDBIZ</span>
+              <span style={{ color: 'black', fontWeight: 600 }}>JOBHUNT</span>
             </div>
           </Link>
           <div className="navcomp">

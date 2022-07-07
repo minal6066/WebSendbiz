@@ -194,7 +194,7 @@ class Candidatesignup extends Component {
 						<div className="form-check mb-signup-1" style={{paddingLeft:"0"}}>
 							<Checkbox name="termsandcondition" checked={values.termsandcondition} onChange={handleChange} value={values.termsandcondition}>
 								<label className="input_label_profile form-check-label-2" htmlFor="exampleCheck1">
-									&nbsp;&nbsp;I have read and accepted the terms and conditions published by sendbiz.com. &nbsp;&nbsp;
+									&nbsp;&nbsp;I have read and accepted the terms and conditions published by JobHunt.com. &nbsp;&nbsp;
 									<small className="cursor terms-link" >Read all</small>
 								</label>
 							</Checkbox>

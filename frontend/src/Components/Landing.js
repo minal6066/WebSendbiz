@@ -229,7 +229,7 @@ const Landing = (props) => {
       <div className="home-outer-div">
         <div className="welcome-div">
           <div className="welcome-title">
-            Welcome to Sen<span style={{ color: '#B02318' }}>db</span>iz
+            Welcome to Jo<span style={{ color: '#B02318' }}>bH</span>unt
           </div>
           <div className="welcome-subtext">
             Find Companies . Jobs . Products . Events & Services
@@ -351,7 +351,7 @@ const Landing = (props) => {
           </Row>
         </div>
         <div className="caters-div">
-          <div className="caters-title">Sendbiz caters to</div>
+          <div className="caters-title">JobHunt caters to</div>
           <div className="caters-cad-outer-div">
             <div className="caters-card">
               <Row>
@@ -428,9 +428,9 @@ const Landing = (props) => {
           className="about-us-div"
           style={{ backgroundImage: `url(${urll})` }}
         >
-          <div className="about-title">About Sendbiz</div>
+          <div className="about-title">About JobHunt</div>
           <div className="about-subtext">
-            Sendbiz is a platform that allows micro, small and medium sized
+            JobHunt is a platform that allows micro, small and medium sized
             companies to present information, jobs , products / service and
             events, they offer in an ergonomic way. Worldwide, we give great
             visibility to millions of companies who can promote themselves,

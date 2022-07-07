@@ -7,7 +7,7 @@ class Footer extends Component{
 			<>
 			<div className="row custom-row footer-main-class-1 pt-5 mt-5 p-0">
 				<div className="col-4 footer-col-4-1 text-center pt-4">
-					<h3>SENDBIZ</h3>
+					<h3>JobHunt</h3>
 				</div>
 				<div className="col-8">
 					<ul className="list-style-footer-main">

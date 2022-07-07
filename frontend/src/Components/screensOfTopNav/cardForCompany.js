@@ -35,14 +35,13 @@ class CompanyListCard extends Component {
       .then((resp) => {
         console.log(resp.data, '========++++');
         this.setState({
-          companies: resp.data.data,
+          companies: resp?.data?.data,
           resultsPerPage: resp.data.results,
           totalData: resp.data.totalCount,
           totalPages: resp.data.totalPages,
           currentPage: resp.data.currentPage,
           isLoading: false,
         });
-        console.log(this.state.companies, this.state.currentPage, 'oooooo');
       })
       .catch((err) => {
         this.setState({ isLoading: false });
@@ -75,11 +74,10 @@ class CompanyListCard extends Component {
                       // pathname: `/comp-name-${data.comp_info.comp_name
                       //   .split(' ')
                       //   .join('')}/${data._id}`,
-                      pathname: `/comp-id${
-                        data._id
-                      }/comp-name-${data.comp_info.comp_name
-                        .split(' ')
-                        .join('')}`,
+                      pathname: `/comp-id${data._id
+                        }/comp-name-${data.comp_info.comp_name
+                          .split(' ')
+                          .join('')}`,
                       state: { compId: data._id },
                     })
                   }
@@ -88,7 +86,6 @@ class CompanyListCard extends Component {
                     className="col-sm-3 col-xs-3 text-center"
                     style={{ padding: '20px 10px 20px 30px' }}
                   >
-                    {/*<div style={{backgroundColor:"red",marginTop:11,width:"80%",marginLeft:11,height:"80%",borderRadius:10}}>*/}
 
                     <img
                       className="job-card-image-1"
@@ -100,7 +97,6 @@ class CompanyListCard extends Component {
                       }
                       style={{ width: '100%' }}
                     />
-                    {/*</div>*/}
                   </div>
                   <div
                     className="col-sm-9 col-xs-9"
@@ -108,17 +104,12 @@ class CompanyListCard extends Component {
                   >
                     <Row>
                       <div className="col-sm-9 col-xs-9 company-card-8">
-                        {/* <p className="job-card-3">{'data.title'}</p> */}
+                  
                         <p className="job-card-4">
                           {data.comp_info.bus_name ? data.comp_info.bus_name.charAt(0).toUpperCase() +
                             data.comp_info.bus_name.slice(1).toUpperCase() : data.comp_info.comp_name.charAt(0).toUpperCase() +
-                            data.comp_info.comp_name.slice(1).toUpperCase()}
+                          data.comp_info.comp_name.slice(1).toUpperCase()}
                         </p>
-                        {data.comp_info.comp_category.length > 0 && (
-                          <p style={{ fontSize: '13px' }} className={'mt-2'}>
-                            {data.comp_info.comp_category.map((data) => data)}dd
-                          </p>
-                        )}
                         <p className="job-card-5">
                           <img
                             src={process.env.PUBLIC_URL + '/location-red.png'}

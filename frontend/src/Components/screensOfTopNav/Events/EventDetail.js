@@ -111,13 +111,6 @@ class EventDetail extends Component {
     loadCommentName: false,
     allProductsData: null,
     comments: [
-      // {
-      //   author: 'Priyanshi Tater',
-      //   avatar:
-      //     'https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png',
-      //   content: <span>I love the Sendbiz platform</span>,
-      //   datetime: moment().fromNow(),
-      // },
     ],
   };
 

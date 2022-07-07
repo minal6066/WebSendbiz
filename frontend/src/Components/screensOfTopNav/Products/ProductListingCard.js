@@ -46,11 +46,11 @@ const ProductListingCard = (props) => {
   ) => {
     // console.log('serach query in props:', searchQuery, props, company);
     let searchCat = ""
-    if(category.length > 0){
-      category.map((val)=>{
-        searchCat = searchCat + `&category=${val}`
-      })
-    }
+    // if(category.length > 0){
+    //   category.map((val)=>{
+    //     searchCat = searchCat + `&category=${val}`
+    //   })
+    // }
     let searchComp = ""
     if(company.length > 0){
       company.map((val)=>{
@@ -183,7 +183,7 @@ const ProductListingCard = (props) => {
                         md={24}
                       >
                         <span style={{ marginRight: '15px' }}>
-                          {data.category.map((cat) => (
+                          {/* {data.category.map((cat) => (
                             <Tag
                               color="volcano"
                               className="s-price-tag"
@@ -191,7 +191,7 @@ const ProductListingCard = (props) => {
                             >
                               {cat}
                             </Tag>
-                          ))}
+                          ))} */}
                         </span>
                       </Col>
                       {/* <EyeFilled className='eye-icon'/><span className='like-eye-text'>1.2k</span>

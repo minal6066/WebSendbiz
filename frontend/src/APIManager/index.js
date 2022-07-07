@@ -843,32 +843,6 @@ class APIManager {
         });
     });
   };
-  // addjob=(formData)=> {
-  //   var ls = require("local-storage");
-  //   var tok = ls.get("token");
-  //   let baseUrl = "https://api.sendbiz.com/add_job";
-  //   return new Promise((resolve, reject, dispatch) => {
-  //     console.log(formData, "hhhhhhhhhh");
-  //     fetch(baseUrl, {
-  //       method: "POST",
-  //       headers: {
-  //         Accept: "application/json",
-  //         "Content-Type": "multipart/form-data",
-  //         Authorization: `Bearer ${tok}`,
-  //       },
-  //       body: formData,
-  //     })
-  //       .then((response) => response.json())
-  //      .then((response) => {
-  //     //  dispatchAction(JobsAppliedbyCompany(response.data));
-  //       resolve(response);
-  //       console.log(response,'ddd');
-  //     })
-  //     .catch(() => {
-  //       reject();
-  //     });
-  //   });
-  // }
 
   addjob = (data) => {
     return HELPERS.secureRequest({

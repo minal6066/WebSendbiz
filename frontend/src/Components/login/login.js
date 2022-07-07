@@ -127,7 +127,7 @@ class Login extends Component {
                           paddingTop: 8,
                         }}
                       >
-                        SENDBIZ
+                        JobHunt
                       </h5>
                     </li>
                   </ul>
@@ -143,7 +143,7 @@ class Login extends Component {
                     Welcome back !
                   </h6>
                   <p style={{ marginTop: 30, fontFamily: 'Gilroy medium' }}>
-                    Log in to your SENDBIZ Account
+                    Log in to your JobHunt Account
                   </p>
                   <form onSubmit={handleSubmit}>
                     <div className="form-group login-form-group">

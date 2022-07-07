@@ -60,7 +60,7 @@ const CompanyServicesData = [
     delivery_time: '10 days',
     brochure: 'file',
     short_desc:
-      'SendBiz is a platform that allows blah blah blah Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ',
+      'JobHunt is a platform that allows blah blah blah Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ',
     full_desc: 'Enter Details',
     isActive: true, // true=Active, false=Deleted
   },
@@ -731,69 +731,8 @@ export default class AddService extends Component {
               </Form.Item>
             </Col>
           </Row>
-          {/* <Col span={24}>
-            <Form.Item label={AttachMedia}>
-              <Row
-                style={{
-                  backgroundColor: 'white',
-                  borderRadius: '6px',
-                  margin: '0px',
-                }}
-                gutter={[24, 12]}
-              >
-                {this.state.fileList.map((val, index) => {
-                  if (index % 5 === 0 || index % 5 === 1) {
-                    return (
-                      <Col span={12} key={index}>
-                        <Image
-                          src={
-                            'https://sendbizbucket.s3.eu-west-3.amazonaws.com/' +
-                            val.fileName
-                          }
-                        />
-                      </Col>
-                    );
-                  } else {
-                    return (
-                      <Col span={8} key={index}>
-                        <Image
-                          src={
-                            'https://sendbizbucket.s3.eu-west-3.amazonaws.com/' +
-                            val.fileName
-                          }
-                        />
-                      </Col>
-                    );
-                  }
-                })}
-              </Row>
-            </Form.Item>
-          </Col> */}
-          {/* <img src={this.state.uploadedImage} /> */}
         </Form>
-        {/* {openModal && (
-          <MediaModal
-            isOpen={openModal}
-            isClose={this.ToggelModal}
-            uploadFiles={this.uploadFiles}
-          />
-        )}
-        {uploadPercentage > 0 && (
-          <Progress
-            strokeColor="#EE505080"
-            status="active"
-            style={{ width: '50%', float: 'right' }}
-            percent={uploadPercentage}
-          />
-        )} */}
       </div>
     );
   }
 }
-// const mapStateToProps = (state) => {
-//   return {
-//     data: state.appliedJobsReducer.data,
-//     isloading: state.appliedJobsReducer.isloading,
-//   };
-// };
-// export default withRouter(connect(mapStateToProps)(AddService));

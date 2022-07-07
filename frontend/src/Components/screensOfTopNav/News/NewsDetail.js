@@ -107,7 +107,7 @@ class NewsDetail extends Component {
         author: 'Priyanshi Tater',
         avatar:
           'https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png',
-        content: <span>I love the Sendbiz platform</span>,
+        content: <span>I love the JobHunt platform</span>,
         datetime: moment().fromNow(),
       },
     ],

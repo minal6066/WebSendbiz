@@ -573,7 +573,7 @@ class ApplyJob extends Component {
           </Row>
           <Row className="apply-job-news-bottom" style={{ paddingTop: 70 }}>
             <p className="apply-job-news-bottom-para-1">News</p>
-            <p className="apply-job-news-bottom-para-2">Inside SendBiz</p>
+            <p className="apply-job-news-bottom-para-2">Inside JobHunt</p>
           </Row>
           <Row justify="center">
             <Col span={20} className="apply-job-scroller">

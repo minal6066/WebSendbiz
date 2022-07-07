@@ -126,7 +126,7 @@ class EventListingCard extends Component {
                   <img
                     alt="example"
                     src={
-                      data.imagePath.length !== 0
+                      data?.imagePath?.length !== 0
                         ? data.imagePath.map((data) =>
                             data ? data : cardDefaultPic
                           )
@@ -174,13 +174,13 @@ class EventListingCard extends Component {
                         className="service-location"
                         style={{ display: 'block' }}
                       >
-                        {data.likes.length} Likes
+                        {data?.likes?.length} Likes
                       </div>
                     </Col>
                     <Col span={8}>
                       <MessageFilled className="service-icons" />
                       <div className="service-location">
-                        {data.comments.length} Comments{' '}
+                        {data?.comments?.length} Comments{' '}
                       </div>
                     </Col>
                     <Col span={10}>

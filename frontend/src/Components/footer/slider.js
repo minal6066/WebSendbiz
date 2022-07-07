@@ -59,7 +59,7 @@ class SimpleSlider extends Component {
                     <h2 className="card-head">Freely recruit</h2>
                 </Row>
                 <Row>
-                    <p className='card-para'>Recruiting is difficult and expensive, with SendBiz we propose that you can post ail job off ers Jobs, missions, internships, ...), manage applications easily and in a way accessible to ail companies.</p>
+                    <p className='card-para'>Recruiting is difficult and expensive, with JobHunt we propose that you can post ail job off ers Jobs, missions, internships, ...), manage applications easily and in a way accessible to ail companies.</p>
                 </Row>
             </Col>
           </Row>
