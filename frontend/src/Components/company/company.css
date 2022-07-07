@@ -1,0 +1,928 @@
+.bg {
+  /*background-image: url("/company_home.png");*/
+  width: 100%;
+  /*display: inline-flex;
+	padding: 0 10px;
+	height: 400px;*/
+}
+
+.input-label-field-custom-select-type-4 {
+  font: normal normal 400 18px/22px Gilroy semiBold;
+}
+
+.s-search-bar-updated {
+  padding: 12px 0% 16px 0%;
+}
+.s-search-bar-updated
+  > .ant-col
+  > .ant-row
+  > .ant-col
+  > .ant-input-affix-wrapper
+  > .ant-input:focus {
+  box-shadow: 0 0 0 0px rgb(238, 80, 80, 0.2) !important;
+}
+.hover-cover-page > .ant-image > .ant-image-img {
+  height: 216px !important;
+  width: 100% !important;
+}
+.hover-cover-page > .ant-image {
+  width: -webkit-fill-available !important;
+}
+.hover-cover-page {
+  position: relative !important;
+}
+.ant-modal-mask,
+.ant-image-preview-mask {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  height: 100%;
+  background-color: rgb(255 255 255 / 45%);
+}
+
+.layout-backgroud {
+  background: #f4f6f9 !important;
+}
+.form-padding-left-2 {
+  padding-left: 12px;
+}
+.form-padding-left-3 {
+  padding-right: 13px;
+}
+.text-area-padding {
+  padding: 0 1px !important;
+}
+.edit-company-cover-page {
+  display: none;
+}
+.checkbox-padding-candidate {
+  padding-top: 65px;
+  text-align: right;
+}
+.hover-cover-page:hover > .edit-company-cover-page {
+  display: inline-block;
+}
+
+.add-user-upload-image-3 {
+  display: none !important;
+}
+
+.add-user-upload-image-4 {
+  display: none !important;
+}
+
+.hover-logo:hover > .add-user-upload-image-3 {
+  display: inline-block !important;
+}
+.hover-logo:hover > .add-user-upload-image-4 {
+  display: inline-block !important;
+}
+
+.user-background-manage {
+  background-color: #ee505033;
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+.hover-logo {
+  position: relative !important;
+}
+.icon-css {
+  position: absolute;
+  left: 140px;
+}
+.icon-css-2 {
+  position: absolute;
+  left: 130px;
+  bottom: -28px;
+}
+.company-home-card-1 {
+  background-color: white;
+  z-index: 1;
+  margin-top: -65px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 22px 34px;
+  /*border-bottom: 1px solid #e7ebf3;*/
+}
+.background-color {
+  background: #f4f6f9 !important;
+}
+.company-visit-profile {
+  padding-left: 20px !important;
+}
+.company_modal_media-1 {
+  font: normal normal bold 14px/40px Gilroy Bold;
+  letter-spacing: 0.96px;
+  color: #24262b;
+}
+.upload-media-modal > .ant-modal-content > .ant-modal-footer > .ant-btn {
+  font: normal normal bold 18px/22px Gilroy Bold;
+  border-radius: 6px;
+  background: rgb(36, 38, 43);
+}
+.ac-card-list-border {
+  border-right: 1px solid #00000061;
+}
+.ac-position {
+  font: normal normal bold 16px/19px Gilroy SemiBold;
+}
+.ac-card-list-item {
+  letter-spacing: -0.22px;
+  color: #000000;
+  font: normal normal 600 16px/32px Gilroy SemiBold;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+}
+.edit-company-profile-page-layout > .ant-image > .ant-image-img {
+  height: 216px !important;
+  border-radius: 5px;
+}
+.company-active {
+  font: normal normal 400 15px/18px Gilroy Bold !important;
+  display: inline-block;
+  margin: 0;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  user-select: none;
+  /*background-color: transparent;*/
+  border: 1px solid transparent;
+  padding: 0.375rem;
+  border-radius: 0.25rem;
+  color: #fff !important;
+  background-color: #ee5050;
+  border-color: #ee5050;
+}
+
+.font-class-1 {
+  font-family: Gilroy;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+}
+.company-profile-heading {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: -0.44px;
+  color: #24262b;
+}
+.company-main-ul-1 {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  list-style: none;
+  font: normal normal 400 16px/19px Gilroy semiBold;
+  color: #24262b;
+}
+.company-main-ul-1-li {
+  padding-right: 15px;
+}
+.social-icon-company {
+  /*border: 1px solid black;*/
+  border-radius: 50px;
+  /*padding: 5px 10px;*/
+  /*background: #24262b;*/
+  color: white;
+}
+.social-icon-company-linkedin {
+  /*border: 1px solid black;*/
+  border-radius: 50px;
+  /*padding: 5px 8px;*/
+  /*background: #24262b;*/
+  color: white;
+}
+.social-icon-company-twitter {
+  /*border: 1px solid black;*/
+  border-radius: 50px;
+  /*padding: 5px 8px;*/
+  /*background: #24262b;*/
+  color: white;
+}
+
+.visit-company-page {
+  font: normal normal 14px/17px Gilroy Bold;
+  letter-spacing: -0.19px;
+  color: #ee5050;
+  width: 100%;
+  text-align: center;
+  padding-top: 65px;
+}
+
+.company-profile-1 {
+  border: none;
+  background: #f4f6f9;
+}
+.company-information-div-2 {
+  opacity: 0.4;
+  font: normal normal 400 15px/18px Gilroy semiBold;
+  letter-spacing: -0.21px;
+  color: #24262b;
+}
+
+.company-information-div-1 {
+  font-family: Gilroy;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.25px;
+  color: #24262b;
+}
+.c1-li-1 {
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-left: 15px;
+}
+.c1-li-2 {
+  padding-right: 50px;
+  padding-top: 20px; /*
+	padding-left: 15px;*/
+}
+
+.list-style-3 {
+  margin: 0;
+  list-style: none;
+  padding: 15px 0 0 0;
+  width: 100%;
+  background-color: white;
+}
+
+.company_event_heading-1 {
+  font: normal normal 400 22px/30px Gilroy medium;
+  color: #131415;
+  margin: 18px 0px;
+  padding: 0;
+  width: 100%;
+}
+.border-none {
+  border: none !important;
+}
+.company-form-control {
+  height: calc(2em + 0.75rem + 4px);
+  border-radius: 6px;
+}
+.event-msg-content-line-left {
+  border-radius: 10px;
+  background-color: #f4f6f9;
+  margin-top: 10px;
+  margin-right: 70px;
+  padding: 10px 10px 10px 5px;
+  margin-left: 35px;
+}
+
+.company_event_heading-2 {
+  font: normal normal 400 20px/24px Gilroy medium;
+  color: #131415;
+  margin: 18px 0px;
+  padding: 0;
+  width: 100%;
+}
+
+.list-style-3-li-1 {
+  padding-right: 20px;
+  text-transform: uppercase;
+}
+.list-style-3-li-2 {
+  padding-right: 20px;
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+hr {
+  margin: 1rem 0 0 0;
+}
+
+.company-profile {
+  font: normal normal 400 15px/18px Gilroy semiBold;
+  color: #24262b;
+  display: inline-block;
+  margin: 0;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  user-select: none;
+  padding: 0.375rem;
+  /*font-size: 1rem;*/
+  /*line-height: 1.5;*/
+  border-radius: 0.25rem;
+}
+
+.company-home-card-2 {
+  /*background-color: white;*/
+  z-index: 0;
+  margin-top: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
+  /*border-bottom: 1px solid #e7ebf3;*/
+}
+.ml-6 {
+  margin-left: 5rem !important;
+}
+.card-padding-margin {
+  padding: 20px 34px;
+  margin-bottom: 14px;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+.card-border {
+  border: 1px solid #f1eaea;
+  border-radius: 10px;
+}
+.side-navbar-heading-company-1 {
+  font: normal normal 400 20px/24px Gilroy semiBold;
+  letter-spacing: -0.28px;
+  color: #000000;
+}
+.side-navbar-heading-company-2 {
+  font: normal normal 400 14px/17px Gilroy Bold;
+  letter-spacing: -0.19px;
+  text-align: right;
+  color: #ee5050;
+}
+.icons-listing {
+  list-style: none;
+}
+.icons-listing li {
+  display: inline-flex;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+  padding: 15px 0;
+}
+
+.content .icons-listing img {
+  width: 35%;
+}
+.partner-text {
+  overflow: hidden;
+  float: none;
+  width: 100%;
+  text-align: left;
+  padding: 10px 0 0 15px;
+  /*display: inline-flex;*/
+}
+.partner-text-span-1 {
+  font: normal normal 400 18px/22px Gilroy semiBold;
+  letter-spacing: -0.25px;
+  color: #000000;
+  display: block;
+}
+.left-card-margin-padding {
+  margin-left: 25px;
+}
+.custom-col-3 {
+  flex: 0 0 31% !important;
+  max-width: 30.33% !important;
+}
+
+.partner-text-span-2 {
+  font: normal normal 400 14px/17px Gilroy semiBold;
+  opacity: 0.4;
+  letter-spacing: -0.19px;
+  color: #000000;
+}
+.feature_jobs_company {
+  width: 35%;
+}
+/*li a {
+      display: flex;
+      align-items: center;
+    }*/
+
+.about-company {
+  font-family: Gilroy semiBold;
+  font-size: 20px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.28px;
+  color: #000000;
+  /*padding-left: 2rem;*/
+}
+.about-company-left-padding {
+  padding-left: 2rem !important;
+}
+
+.about-company-para {
+  opacity: 0.5;
+  font: normal normal 400 18px/20px Gilroy semiBold;
+  letter-spacing: normal;
+  color: #000000;
+}
+.permanent {
+  font: normal normal 400 14px/17px Gilroy semiBold;
+  border-radius: 2px;
+  border: 1px solid #df725952;
+  text-align: center;
+  padding: 2px;
+  background-color: #ee505033;
+  color: #ee5050;
+}
+.sponsered {
+  font: normal normal 400 14px/17px Gilroy semiBold;
+
+  color: #5981df;
+}
+.company-product-para {
+  font-family: Gilroy;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.22px;
+  color: #00000082;
+}
+
+.company-profile-heading {
+  font-family: Gilroy Bold;
+  font-size: 32px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.27px;
+  color: #24262b;
+}
+
+.company-profile-heading-1 {
+  font: normal normal 400 26px/31px Gilroy semiBold;
+  letter-spacing: -0.27px;
+  color: #24262b;
+}
+
+.company-activity {
+  font-family: Gilroy semiBold;
+  font-size: 22px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  color: #24262b;
+  opacity: 0.5;
+}
+.news_date {
+  font-family: Gilroy;
+  font-size: 8px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #6f727a;
+}
+/*============================================================edit company profile===========================*/
+
+.main-margin-top-for-edit-profile {
+  /*margin-top: 40px;*/
+  background: #f4f6f9 !important;
+}
+/*.main-margin-left-for-edit-profile{
+	padding-left: 120px;
+}*/
+.sider-nav-active {
+  background: #ffffff !important;
+  color: #ee5050 !important;
+  font-family: Gilroy Bold !important;
+}
+.sider-nav {
+  font: normal normal 400 18px/21px Gilroy medium;
+  cursor: pointer;
+  color: black !important;
+  line-height: 0 !important;
+  height: auto !important;
+  padding-bottom: 10px !important;
+  padding-left: 32px !important;
+}
+.sider-nav::after {
+  border-right: 3px solid #ee5050 !important;
+}
+.edit-company-profile-page-layout {
+  /*height: 216px;*/
+  background-repeat: no-repeat;
+}
+.edit-company-logo {
+  margin-top: -90px;
+  position: absolute;
+  margin-left: 48px;
+  width: 119px;
+  height: 119px;
+  border-radius: 5px;
+}
+
+.ant-tabs-tab:hover {
+  color: #262626 !important;
+}
+.menu-content a {
+  text-decoration: none !important;
+}
+.add-user-upload-image-3 {
+  border: unset !important;
+  border-radius: unset !important;
+  padding: unset !important;
+  margin: unset !important;
+  background: unset !important;
+}
+/*===================================company info edit component==============================*/
+.input-field-custom-type-1-left {
+  font: normal normal 400 18px/22px Gilroy semiBold;
+  color: #24262b !important;
+  text-align: left;
+  /*height: 52px;*/
+  border-radius: 6px;
+  border: none;
+  padding: 15px 17px;
+  width: 95%;
+  background-color: white;
+}
+.input-label-field-custom-type-1 {
+  font: normal normal 400 16px/19px Gilroy semiBold;
+  color: #24262b;
+  opacity: 0.6;
+}
+.input-field-custom-type-1-right {
+  font: normal normal 400 18px/22px Gilroy semiBold;
+  color: #24262b !important;
+  height: 52px;
+  border-radius: 6px;
+  border: none;
+  padding: 12px;
+  width: 90%;
+  background-color: white;
+}
+.input-field-custom-type-1-center {
+  text-align: center;
+  font: normal normal 400 18px/22px Gilroy semiBold;
+  color: #24262b !important;
+  height: 52px;
+  border-radius: 6px;
+  border: none;
+  padding: 12px;
+  width: 90%;
+  background-color: white;
+}
+.hover-logo:hover > .add-user-upload-image-4 {
+  display: inline-block !important;
+}
+.add-user-upload-image-4 {
+  border: unset !important;
+  border-radius: 50% !important;
+  padding: 5px 10px !important;
+  background: #e34f51 !important;
+}
+.edit-company-cover-page {
+  position: absolute;
+  right: 15px;
+  margin-top: 20px;
+}
+/*==================media button css =========================*/
+.add_media_button > .ant-btn:hover,
+.add_media_button > .ant-btn:focus,
+.add_media_button > .ant-btn:active {
+  color: #ee5050 !important;
+}
+.upload-media-modal > .ant-modal-content > .ant-modal-footer {
+  text-align: left;
+}
+/*===========================Billing Overview=======================*/
+.billing_overview_invoice_1 {
+  font: normal normal 400 18px/22px Gilroy Bold;
+  width: 100%;
+}
+.billing_overview_input_and_sort {
+  display: flex !important;
+}
+
+.billing_overview_input_and_sort
+  > .ant-select-single:not(.ant-select-customize-input)
+  .ant-select-selector {
+  height: 40px;
+  padding: 5px 11px;
+  border: 1px solid #d1d1d1;
+  border-radius: 10px;
+}
+.billing_overview_input_and_sort
+  > .ant-select-single:not(.ant-select-customize-input)
+  .ant-select-selector:focus {
+  border-color: #bb193724 !important;
+  border-right-width: 1px !important;
+  z-index: 1;
+  box-shadow: none;
+}
+.site-card-wrapper-1 {
+  font: normal normal 400 18px/22px Gilroy semiBold;
+  opacity: 0.5;
+  color: #24262b;
+}
+.site-card-wrapper-2 {
+  font: normal normal 400 18px/22px Gilroy Bold;
+  opacity: 1;
+  color: #24262b;
+}
+.billing-card-button-1 {
+  font: normal normal 400 18px/22px Gilroy Bold;
+  color: #ffffff !important;
+  background: #24262b !important;
+  border-radius: 6px;
+  opacity: 1;
+  white-space: unset !important;
+  margin-top: 25px;
+}
+.billing-searchbox {
+  font: normal normal 400 16px/19px Gilroy SemiBold;
+  border-radius: 10px;
+  border: 1px solid #d1d1d1;
+  background: #ffffff;
+}
+.billing-searchbox > .ant-input {
+  box-shadow: 0 0 0 0px rgb(238, 80, 80, 0.2) !important;
+}
+.billing-searchbox:hover,
+.billing-searchbox:focus {
+  border-color: #bb193724 !important;
+  border-right-width: 1px !important;
+  z-index: 1;
+  box-shadow: none;
+}
+.billing-sort {
+  background: #ffffff;
+  font: normal normal 400 16px/19px Gilroy SemiBold;
+  margin-left: 12px;
+  border-radius: 10px;
+}
+.p-manage-search {
+  padding: 5px 0;
+}
+.m-user-card {
+  margin-top: 24px;
+}
+.b-height {
+  height: 50px;
+}
+.biiling-card-main-cls > .ant-card > .ant-card-body {
+  padding: 22px;
+}
+.order-list {
+  height: 90vh;
+  overflow-y: auto;
+}
+.order-list::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #ee5050;
+}
+
+.billing_overview_card_list-1 {
+  background-color: white;
+  margin-top: 30px;
+  border-radius: 6px;
+  padding: 30px 20px;
+}
+.billing_overview_card_list-1-inner {
+  background-color: red;
+  margin-top: 11px;
+  width: 80%;
+  margin-left: 11px;
+  height: 80%;
+  border-radius: 10;
+}
+.billing_overview_card_list-1-inner img {
+  width: 100%;
+  position: relative;
+  height: 100%;
+  border-radius: 10px;
+}
+.billing_overview_card_list-1-inner-para {
+  font: normal normal 400 16px/19px Gilroy Bold;
+  letter-spacing: -0.22px;
+  color: #ee5050;
+  margin: 0;
+  padding: 4px;
+}
+.billing_overview_card_list-1-inner-para-2 {
+  font: normal normal 400 16px/19px Gilroy Bold;
+  color: #24262b;
+  opacity: 0.5;
+  padding: 4px;
+}
+.billing_overview_card_list-1-inner-para-3 {
+  font: normal normal 400 16px/19px Gilroy semiBold;
+  color: #24262b;
+  opacity: 1;
+  padding: 4px;
+  display: inline-block;
+}
+.billing_amount_overview {
+  font: normal normal 400 28px/32px Gilroy Bold;
+  color: #ee5050;
+  letter-spacing: -0.39px;
+  display: flex !important;
+}
+.billing-overview-detail {
+  width: 100%;
+  padding-top: 15px;
+}
+.billing-overview-detail h6 {
+  font: normal normal 400 18px/22px Gilroy semiBold;
+  letter-spacing: -0.25px;
+  color: #24262b;
+}
+.billing-overview-detail p {
+  font: normal normal 400 16px/19px Gilroy semiBold;
+  color: #24262b;
+  opacity: 0.5;
+  margin: 0;
+}
+
+.ant-layout-sider-children > .ant-menu-root > .sider-nav-active {
+  background: #ffffff !important;
+  color: #ee5050 !important;
+  font: normal normal 400 16px/19px Gilroy Bold;
+}
+
+.ant-layout-sider-children > .ant-menu-root > .sider-nav-active > .active {
+  background: #ffffff !important;
+  color: #ee5050 !important;
+  font: normal normal 400 16px/19px Gilroy Bold;
+}
+.job-card {
+  opacity: 1;
+  cursor: unset;
+}
+.edit-job-card {
+  opacity: 0;
+  cursor: pointer;
+}
+.job-card:hover .edit-job-card {
+  opacity: 1;
+}
+.candidate-info-card-1 {
+  margin-top: -90px;
+  background-color: #ffffff !important;
+  position: relative;
+}
+.candidat-profile-info-tab > .ant-tabs-nav {
+  margin-bottom: 30px;
+  background-color: #ffffff !important;
+  padding-top: 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.candidat-profile-info-tab
+  > .ant-tabs-nav
+  > .ant-tabs-nav-wrap
+  > .ant-tabs-nav-list
+  > .ant-tabs-tab-active {
+  border: none;
+  background-color: #ee5050 !important;
+  border-radius: 4px !important;
+  color: white !important;
+  /* margin-left: 20px; */
+}
+.candidat-profile-info-tab
+  > .ant-tabs-nav
+  > .ant-tabs-nav-wrap
+  > .ant-tabs-nav-list
+  > .ant-tabs-tab.ant-tabs-tab-active
+  .ant-tabs-tab-btn {
+  color: white !important;
+  /* margin-left: 20px; */
+}
+.candidat-profile-info-tab
+  > .ant-tabs-nav
+  > .ant-tabs-nav-wrap
+  > .ant-tabs-nav-list {
+  margin-left: 20px;
+  margin-top: 5px;
+  padding-bottom: 10px;
+}
+
+.candidat-profile-info-tab
+  > .ant-tabs-nav
+  > .ant-tabs-nav-wrap
+  > .ant-tabs-nav-list
+  > .ant-tabs-tab {
+  font: normal normal 400 16px/18px Gilroy semiBold;
+  border: none !important;
+  margin-right: 20px;
+}
+.colapsable > .ant-collapse {
+  border: none;
+  margin-left: 32px;
+  background-color: #f4f6f9;
+  margin-top: -45px;
+  margin-right: 31px;
+  margin-top: -9px;
+}
+.colapsable
+  > .ant-collapse
+  > .ant-collapse-item:last-child
+  > .ant-collapse-content {
+  border: none;
+  background-color: #f4f6f9;
+  border-radius: 10px;
+}
+.colapsable > .ant-collapse > .ant-collapse-item:last-child {
+  border-radius: 10px;
+}
+.colapsable > .ant-collapse {
+  border-radius: 10px;
+}
+.colapsable
+  > .ant-collapse
+  > .ant-collapse-item:last-child
+  > .ant-collapse-header {
+  color: red;
+  font: normal normal 400 13px/23px Gilroy semiBold;
+  text-align: end;
+}
+.colapsable
+  > .ant-collapse
+  > .ant-collapse-item
+  > .ant-collapse-header
+  .ant-collapse-arrow {
+  margin-left: 89%;
+}
+.select-field-custom-type-1-left {
+  font: normal normal 400 18px/22px Gilroy semiBold;
+  color: #24262b !important;
+  text-align: left;
+  height: 52px;
+  border-radius: 6px;
+  border: solid 2px;
+  border-color: black;
+  padding: 12px;
+  width: 85%;
+  background-color: white;
+  margin-left: 25px;
+  border-color: #eaeaea;
+}
+.Text-Job-Modal {
+  padding-top: 20px;
+  margin-left: 25px;
+  color: #7c7d80;
+  font: normal normal 400 16px/19px Gilroy semiBold;
+}
+.Modal {
+  opacity: 1;
+}
+.deleteModal > .ant-modal-content {
+  height: 220;
+  width: 430;
+}
+.Appliedjobbutton {
+  background-color: inherit;
+  border-radius: 7px;
+  border: solid;
+  border-width: 1px;
+  color: #ee5050 !important;
+  border-color: #ee5050;
+  outline: none;
+}
+.Appliedjobbutton:hover,
+.Appliedjobbutton:focus,
+.Appliedjobbutton:active {
+  color: white !important;
+  border: none;
+  /* border-radius: 7px; */
+  background-color: #ee5050;
+  outline: none;
+}
+.custom-file-label-3 {
+  font: normal normal 400 16px/19px Gilroy Bold;
+  letter-spacing: -0.19px;
+  color: #ee5050;
+}
+.space-issues {
+  position: absolute;
+  top: 220%;
+  bottom: 0 !important;
+  width: 100%;
+}
+@media (max-width: 1028px) {
+  .space-issues {
+    top: 160%;
+  }
+}
+.p-info-head {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+/*.input-field-custom-select-1-right > .ant-select-selector > .ant-select-selection-item{
+
+}*/

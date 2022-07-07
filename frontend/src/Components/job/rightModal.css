@@ -1,0 +1,6 @@
+.social-modal > .ant-modal-content > .ant-modal-body{
+	height: 100vh !important;
+}
+.create-user-modal > .ant-modal-content > .ant-modal-body{
+	height: auto !important;
+}

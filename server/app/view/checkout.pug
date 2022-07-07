@@ -1,0 +1,24 @@
+doctype html
+html 
+  head
+    meta(charset='utf-8')
+    title Accept a card payment
+    meta(name='description' content='A demo of a card payment on Stripe')
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    link(rel='stylesheet' href='css/global.css')
+    script(src='https://js.stripe.com/v3/')
+    script(src='https://polyfill.io/v3/polyfill.min.js?version=3.52.1&features=fetch')
+    script(src='js/client.js' defer='')
+  // Display a payment form
+  body
+    form#payment-form
+      #card-element
+        // Stripe.js injects the Card Element
+      button#submit
+        #spinner.spinner.hidden
+        span#button-text Pay now
+      p#card-error(role='alert')
+      p.result-message.hidden
+        | Payment succeeded, see the result in your
+        a(href='' target='_blank') Stripe dashboard.
+        |  Refresh the page to pay again.

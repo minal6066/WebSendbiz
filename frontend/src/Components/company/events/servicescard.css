@@ -1,0 +1,78 @@
+.services-card{
+    /* padding: 20px 30px; */
+    margin-top: 20px;
+    border-radius: 10px;
+    /* cursor: pointer; */
+}
+.service-name{
+    color: #24262B;
+    font: normal normal 600 26px/32px Gilroy Bold;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;   
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.icon-col{
+    display: flex;
+    justify-content: flex-end;
+}
+.service-icons{
+    color:#EE5050;
+    font-size: 20px;
+    padding: 0 15px 0 0 ;
+    vertical-align: top;
+}
+.service-hidden-icons{
+    visibility: hidden;
+    cursor: pointer;
+}
+.service-detail-row:hover  .service-hidden-icons{
+    visibility: visible;
+}
+.service-s-desc{
+    text-align: left;
+    letter-spacing: -0.22px;
+    color: #000000;
+    opacity: 0.5;
+    font: normal normal 600 16px/32px Gilroy Bold;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+.service-location{
+    letter-spacing: -0.22px;
+    color: #000000;
+    opacity: 0.5;
+    font: normal normal 600 16px/32px Gilroy SemiBold;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    margin-top: -6px;
+
+}
+.services-pagination{
+    margin-top: 20px;
+    text-align: right;
+}
+.services-pagination .ant-pagination-item-active{
+    background-color: black !important;
+    border-radius: 50%;
+    color:#ffffff !important;
+    border:0 !important;
+    font-weight: bold !important;
+}
+.services-pagination .ant-pagination-item{
+    background-color: transparent;
+    border-radius: 50%;
+    color:#000000;
+    border:0 !important;
+    font-weight: bold;
+}
+.services-pagination .ant-pagination-item-link{
+    border: 0 !important;
+    background-color: transparent;
+}

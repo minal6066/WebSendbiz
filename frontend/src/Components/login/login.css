@@ -1,0 +1,121 @@
+.custom_row {
+  margin: 0 !important;
+  z-index: 1000 !important;
+}
+.login-container {
+  width: 50%;
+  object-fit: contain;
+  height: 100vh;
+}
+.login_div_img_1 {
+  position: fixed;
+  object-fit: fill;
+  width: inherit;
+  height: 100%;
+}
+.px-2 {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+.login-right {
+  width: 25%;
+}
+
+.px-left-login {
+  padding-left: 6% !important;
+}
+.px-top-login {
+  padding-top: 40px;
+}
+.login-form-control {
+  height: calc(2em + 0.75rem + 4px);
+}
+.welcome_msg {
+  letter-spacing: 0px;
+  color: #333333;
+  font-family: Gilroy Bold;
+  opacity: 1;
+  /*font-weight: 600;*/
+}
+.login-left p {
+  font: normal normal normal 18px/22px Gilroy medium;
+  color: #333333;
+}
+.login-left label {
+  font: normal normal 600 16px/19px Gilroy semiBold;
+  color: #797979;
+}
+.go-back {
+  margin-bottom: 30px;
+}
+.go-back img {
+  width: auto !important;
+}
+.login-left button {
+  text-align: center;
+  letter-spacing: -0.1px;
+  color: #ffffff;
+  text-transform: uppercase;
+  background: #24262b 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  font-size: 12px;
+  padding: 8px 66px;
+}
+/*.login-left h5{
+	padding-left: 15px;
+	font-size: 15px;
+	display: inline-block;
+	margin: 0;
+	padding-bottom: 18px;
+}*/
+.login-left img {
+  width: 5%;
+}
+.login-left {
+  padding-right: 5% !important;
+}
+.login-tag {
+  font: normal normal normal 18px/21px Gilroy medium;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+.form-check-label-3 {
+  font: normal normal normal 13px/15px Gilroy medium !important;
+  color: #333333 !important;
+}
+.login-button-font {
+  font: normal normal normal 18px/22px Gilroy Bold !important;
+}
+.red-link {
+  font-size: 18px !important;
+  font-family: Gilroy semiBold;
+}
+.login-form-group {
+  margin-bottom: 30px;
+}
+.gapp {
+  width: 95% !important;
+}
+
+@media (max-height: 766px) {
+  .overflow-class-2 {
+    height: 690px !important;
+  }
+  .signup_div_img_1 {
+    height: 690px !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .login_div_img_1 {
+    display: none !important;
+  }
+  .cent_button {
+    text-align: center !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-side-menu {
+    width: 250px;
+  }
+}

@@ -1,0 +1,105 @@
+.detail-outer-div{
+    padding: 25px 7.64% 0 8.33%;
+}
+.service-d-img{
+    border-radius: 5px;
+}
+.s-detail-name{
+    margin-top: 20px;
+    font: normal normal 400 28px Gilroy SemiBold;
+    color: #24262B;
+    text-transform: capitalize;
+}
+.s-detail-comp-name{
+    color: #24262B;
+opacity: 0.5;
+font: normal normal 400 18px Gilroy SemiBold;
+text-transform: uppercase;
+}
+.s-detail-short-desc{
+    letter-spacing: 0.18px;
+    color: #000000;
+    opacity: 0.5;
+    font: normal normal 400 13px Gilroy SemiBold;
+    margin-top: 12px;
+}
+.s-detail-attr{
+    letter-spacing: -0.22px;
+color: #000000;
+opacity: 0.4;
+font: normal normal 400 16px Gilroy SemiBold;
+}
+.s-detail-val{
+    letter-spacing: -0.22px;
+color: #000000;
+opacity: 1;
+font: normal normal 400 16px Gilroy SemiBold;
+}
+.send-msg-btn{
+    background-color:#24262B !important;
+    width: 170px;
+    height: 50px;
+    font: normal normal 400 16px Gilroy SemiBold;
+    color: #ffffff !important;
+    border-radius: 6px;
+    outline: 0 !important;
+    border: 0 !important;
+}
+.bookmark-div{
+    border: 2px solid #1F2125;
+    border-radius: 6px;
+    opacity: 1;
+    display: inline-block;
+    height: 50px;
+    margin-left: 15px;
+    vertical-align: top;
+    padding: 8px 12px;
+}
+.s-detail-r-card .ant-card-body{
+    padding: 30px 6.5% 80px 30px;
+}
+.r-card-head{
+    text-align: left;
+letter-spacing: -0.28px;
+color: #000000;
+font: normal normal 400 20px Gilroy SemiBold;
+margin-bottom: 20px;
+}
+.r-card-text{
+    color: #000000;
+opacity: 0.5;
+font: normal normal 400 20px Gilroy SemiBold;
+}
+.shop-link{
+    margin-right: 15px;
+    color: #EE5050;
+    font: normal normal 400 14px Gilroy SemiBold;
+    cursor: pointer;
+}
+.shop-btn{
+    background-color:#24262B !important;
+    width: 100%;
+    height: 50px;
+    font: normal normal 400 16px Gilroy SemiBold;
+    color: #ffffff !important;
+    border-radius: 6px;
+    outline: 0 !important;
+    border: 0 !important;
+}
+.p-detail-icons{
+    margin-right: 15px;
+    color: #EE5050;
+    font: normal normal 400 16px Gilroy SemiBold;
+    vertical-align: baseline;
+}
+.intersted-icon
+{
+    border: 2px solid #24262B;
+    border-radius: 6px;
+    width: 71px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    margin-left: 5px;
+    cursor: pointer;
+}

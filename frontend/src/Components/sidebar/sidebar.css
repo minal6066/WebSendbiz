@@ -1,0 +1,29 @@
+@media (min-width: 576px){
+	.nav-side-height-company{
+		height:695px;
+		/*width: 100% !important;*/
+	}
+}
+.menu-content > .active{
+	background-color: unset !important;
+}
+.out li{
+	letter-spacing: var(--unnamed-character-spacing-0);
+	text-align: left;
+	letter-spacing: 0px;
+	color: #24262B;
+	opacity: 1;
+}
+NavLink {
+	padding: 0% !important;
+	margin: 0% !important;
+}
+.profile-head-font {
+	padding: 0% !important;
+	margin: 0% !important;
+	/*padding-top: 8px !important;*/
+	/*padding-bottom: 4px !important;*/
+}
+.sidebar-padding{
+	padding: 10px 0 0 0;
+}

@@ -1,0 +1,149 @@
+.resume-1{
+	font: normal normal 400 28px/32px Gilroy Bold;
+	width: 100%;
+}
+.input-field-custom-type-1-2{
+	font: normal normal 400 18px/22px Gilroy semiBold;
+    color: #24262B !important;
+    text-align: left;
+    height: 45px;
+    border-radius: 6px;
+    padding: 12px;
+    width: 90%;
+    background-color: white;
+}
+.input-field-custom-type-1-2 > .ant-select-selector{
+	padding: 7px 11px !important;
+	height: 42px !important;
+    border-radius: 1px !important;
+}
+.resume-data-1{
+    padding: 9px 11px !important;
+}
+/*========================Card=========================*/
+.resume-card-1{
+    width: 100%;
+}
+.resume-card-2{
+    background-color: white;
+    border-radius: 6px;
+    /*cursor: pointer;*/
+}
+.resume-card-3{
+    background-color: #f7dcdf;
+    padding: 4px 10px 4px 10px;
+    border-radius: 15px;
+    display: initial;
+    font: normal normal 400 12px/14px Gilroy semiBold;
+}
+.resume-card-3 > span{
+    /*position: absolute;*/
+    /*font-size: 12px;*/
+    /*top: -5px;*/
+    color: #EE5050;
+}
+.resume-card-4{
+    font: normal normal 400 26px/31px Gilroy semiBold;
+    letter-spacing: -0.36px;
+    color: #24262B;
+    margin: 0;
+    padding-bottom: 8px;
+}
+/*.........................all-applied-resume.....................................*/
+.subheading-of-onclick-resume{
+    font: normal normal 400 24px/40px Gilroy Bold;
+}
+/*===============================all applied resume card======================*/
+.all-applied-resume-card-1{
+    padding: 20px 20px 20px 25px;
+}
+.all-applied-resume-card-2{
+    font: normal normal 400 20px/24px Gilroy semiBold;
+    letter-spacing: -0.28px;
+    color: #24262B;
+    margin: 0;
+}
+.all-applied-resume-card-3{
+    font: normal normal 400 16px/19px Gilroy semiBold;
+    letter-spacing: -0.22px;
+    color: #24262B;
+    margin: 0;
+    opacity: 0.5;
+}
+.all-applied-resume-card-4{
+    letter-spacing: -0.18px;
+    color: #EE5050;
+}
+.all-applied-resume-card-5{
+    letter-spacing: -0.18px;
+}
+.all-applied-resume-card-6{
+    letter-spacing: -0.18px;
+    color: #EE5050;
+}
+
+.all-applied-resume-card-8{
+    list-style: none;
+    display: inline-flex;
+    font: normal normal 400 16px/18px Gilroy semiBold;
+    letter-spacing: -0.22px;
+    color: #00000080;
+    margin: 0;
+    padding: 25px 0 0 0;
+    width: 100%;
+}
+.all-applied-resume-card-8 li{
+    padding-right: 30px;
+}
+.all-applied-resume-card-9{
+    font: normal normal bold 10px/12px Gilroy Bold;
+    letter-spacing: -0.14px;
+    color: #EF2C44;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+.all-applied-resume-card-10{
+    padding: 5px 0px 10px 0px;
+}
+.resume-custom-col-2 > .ant-image > .ant-image-img{
+    height: 119px;
+}
+.sponser-job{
+    color: rgb(109, 144, 227);
+    font: normal normal bold 12px/14px Gilroy semiBold;
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+}
+.custom-job-col-3{
+    padding: 20px 25px 20px 0px;
+}
+.bottom-card-menu-fix{
+    position: absolute;
+    width: 100%;
+    bottom: 25px;
+}
+@media (min-width: 576px){
+    .resume-custom-col-2 {
+        flex: 0 0 19.666667% !important;
+        max-width: 19.666667% !important;
+    }
+    .resume-custom-col-10 {
+        flex: 0 0 80.333333% !important;
+        max-width: 80.333333% !important;
+    }
+    .custom-job-col-sm-3{
+        flex: 0 0 22% !important;
+        max-width: 22% !important;
+    }
+    .applied-job-paddingright{
+        padding-right: 45px;
+    }
+    .resume-col-10{
+        padding:20px 30px 20px 0px;
+    }
+    .all-applied-resume-card-7{
+        padding: 20px 0px 10px 0px;
+    }
+}

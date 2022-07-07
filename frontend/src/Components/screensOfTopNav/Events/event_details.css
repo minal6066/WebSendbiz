@@ -1,0 +1,113 @@
+.event-d-head-image{
+    border-radius: 50%;
+    max-width: 56px;
+    max-height: 56px;
+}
+.event-detail-name{
+    padding-top: 5px;
+    margin-bottom: 0px;
+    font: normal normal 400 20px Gilroy SemiBold;
+    color: #24262B;
+}
+.event-detail-date{
+    color: #24262B;
+opacity: 0.5;
+font: normal normal 400 14px Gilroy SemiBold;
+}
+
+/* Navigation item styles */
+.event-carousel .slick-arrow,
+.event-carousel .ant-carousel-arrow-right {
+  width: 22px;
+  height: 40px;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0.6;
+  z-index: 32;
+}
+.event-carousel .slick-slide {
+    border-radius: 10px;
+  }
+.event-carousel-img{
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 360px;
+}
+.event-carousel .slick-prev {
+  left: 2% !important;
+  background: url("http://pvbk.spb.ru/inc/carousel/ant-files/ant-arrow-left.png") no-repeat !important;
+}
+
+.event-carousel .slick-next {
+  
+  right: 2% !important;
+  background: url("http://pvbk.spb.ru/inc/carousel/ant-files/ant-arrow-right.png") no-repeat !important;
+}
+
+.event-carousel .slick-next:hover, .event-carousel .slick-prev:hover {
+  opacity: 1.0 !important;
+}
+.event-comment-list .ant-list-header{
+    color: #000000;
+    border: 0 !important;
+    font: normal normal 400 20px Gilroy SemiBold;
+}
+.event-comment-list .ant-comment-content-author{
+    display: grid;
+    margin-bottom: 20px;
+}
+.event-comment-list .ant-comment-content-author .ant-comment-content-author-name{
+    color: #131415;
+    font: normal normal 400 18px Gilroy Medium;
+}
+.event-comment-list .ant-comment-content-author .ant-comment-content-author-time{
+    color: #131415;
+    opacity:'50%';
+}
+.event-comment-list .ant-comment-content-detail span{
+    padding:10px 30px 15px 10px;
+    background-color: #F4F6F9;
+    color: #131415;
+    font: normal normal 400 18px Gilroy SemiBold;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+}
+.comment-btn{
+    background-color:red !important;
+    border-radius: 10px;
+    border: 0 !important;
+    outline: 0 !important;
+    height: 50px !important;
+    width: 48px;
+}
+.comment-textarea{
+    width: 100%;
+    border-right: 0;
+    border-radius: 10px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    height: 66px !important;
+    font: normal normal 400 18px Gilroy SemiBold;
+    resize: none;
+}
+.comment-textarea:focus{
+    box-shadow: none !important;
+    border: 1px solid #d9d9d9;
+    border-right: 0;
+    border-radius: 10px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+.comment-textarea input{
+    height: 66px;
+}
+.comment-btn-div{
+    border: 1px solid #d9d9d9;
+    border-left: 0;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    height: 66px !important;
+    display: inline-block;
+    padding: 1% 2%;
+}

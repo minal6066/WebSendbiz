@@ -1,0 +1,218 @@
+.visit_info_card_1{
+	background-color: white;
+	height: 130px;
+	margin-top: 17px;
+	border-radius: 6px;
+	height: 100%;
+}
+.visit_info_card_2{
+	margin-top: 9px;
+	width: 70%;
+	margin-left: 25px;
+	margin-right: 18px;
+	margin-bottom: 28px;
+	height: 80%;
+	border-radius: 10px;
+}
+.visit_info_card_2 img{
+	width: 100%;
+	position: relative;
+	height: 100%;
+	border-radius: 4px;
+}
+.visit_info_card_3{
+	font: normal normal 400 26px/43px Gilroy semiBold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.visit_info_card_4{
+	padding-top: 10px;
+	padding-bottom: 25px;
+	font-size: 20px;
+}
+.visit_info_card_5{
+	display: flex;
+}
+.visit_info_card_5 img{
+	height: 100%; 
+	margin-top: 5;
+}
+.visit_info_card_5 p {
+	margin-left: 8px;
+	font: normal normal 400 15px/22px Gilroy semiBold;
+}
+.visit_info_card_6{
+	padding: 0;
+	list-style: none;
+	display: flex;
+	padding-left: 25px;
+	height: 72px;
+	height: 70%;
+}
+.visit_info_card_7{
+	padding-right: 5;
+	border-right: 1px solid #e2e4e9;
+	width: 33%;
+}
+.visit_info_card_7 p{
+	font-size: 19px;
+	font-weight:700;
+}
+.visit_info_card_8{
+	padding-right: 10px;
+	width: 33%;
+}
+.visit_info_card_8 p{
+	font-size: 19px;
+	font-weight:700;
+}
+.personal-info-1{
+	padding-left: 34px;
+	font: normal normal 400 19px/23px Gilroy semiBold;
+	color: #000000;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+.personal-info-2{
+	margin-left: 34px;
+	color: #EE5050;
+	background-color: #fdeded;
+	border-radius: 5px;
+	text-align: center;
+	padding: 5px 30px 4px 24px;
+	font: normal normal 400 24px/40px Gilroy semiBold;
+}
+.personal-info-3{
+	padding-left: 34px;
+	font: normal normal 400 19px/23px Gilroy semiBold;
+	color: #000000;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+.personal-info-4{
+	color: #7f7f7f;
+	padding-left: 34px;
+	overflow-wrap: break-word;
+	font: normal normal 400 16px/43px Gilroy semiBold;
+	margin-bottom:0;
+}
+.personal-info-5{
+	padding-left: 34px;
+	font: normal normal 400 17px/43px Gilroy semiBold;
+	color: #000000;
+	text-transform: capitalize;
+	margin-bottom:0;
+}
+.personal-info-6{
+	padding-left: 50px;
+	color: #7f7f7f;
+	font: normal normal 400 15px/20px Gilroy semiBold;
+	padding-bottom:20px;
+}
+.visit_cand_personal_1{
+	padding-left: 34px;
+	font: normal normal 400 19px/43px Gilroy semiBold;
+	color: #000000;
+	margin-bottom:0
+}
+.visit_cand_personal_2{
+	padding-top: 10px;
+	border-radius: 10px;
+	margin-left: 5px;
+	margin-right: 32px;
+}
+.visit_cand_personal_2 img{
+	width: 117px;
+	position: relative;
+	height: 118px;
+	border-radius: 10px;
+}
+.visit_cand_personal_3{
+	font: normal normal 400 30px/43px Gilroy semiBold;
+    margin-bottom:3px;
+}
+.visit_cand_personal_4{
+	color: #7f7f7f;
+	font: normal normal 400 21px Gilroy semiBold;
+	margin-bottom:5px;
+}
+.visit_cand_personal_5{
+	color: #7f7f7f;
+	font: normal normal 400 21px Gilroy semiBold;
+}
+.visit_cand_personal_6{
+	padding-left: 34px;
+	font: normal normal 400 19px/43px Gilroy semiBold;
+	color: #000000;
+}
+.visit_cand_personal_7{
+	padding-top: 20px;
+	background-color: #f4f6f9;
+	border-radius: 10px;
+	margin-left: 32px;
+	margin-right: 32px;
+}
+.visit_cand_personal_8{
+	width: 117px;
+	position: relative;
+	height: 118px;
+	border-radius: 10px;
+}
+.visit_cand_personal_9{
+	background-color: #f4f6f9;
+	border-radius: 10px;
+	margin-left: 32px;
+	margin-right: 32px;
+	margin-top: -14px;
+}
+.visit_cand_personal_10{
+	color: #7f7f7f;
+	font: normal normal 400 15px Gilroy semiBold;
+	margin-bottom:15px;
+}
+.visit_cand_personal_11{
+	padding-left: 32px;
+	font: normal normal 400 19px Gilroy semiBold;
+	margin-bottom: 30px;
+}
+.visit_cand_personal_12{
+	padding-bottom: 45;
+	margin-left: 32;
+	font: normal normal 400 17px Gilroy semiBold;
+	overflow-wrap: break-word;
+}
+.visit_cand_personal_13{
+	padding-left: 32px;
+	margin-top: 32px;
+	font: normal normal 400 19px/23px Gilroy semiBold;
+}
+.visit_cand_personal_14{
+	color: #7f7f7f;
+	margin-left: 32px;
+	font: normal normal 400 16px/23px Gilroy semiBold;
+	margin-bottom: 15px;
+}
+.visit_cand_personal_15{
+	margin-left: 32px;
+	font: normal normal 400 17px/23px Gilroy semiBold;
+	margin-bottom: 20px;
+}
+
+.visit_education-1{
+	padding-left: 34px;
+	font: normal normal 400 19px/43px Gilroy semiBold;
+	color: #000000;
+}
+.visit_education-2{
+	width: 117px;
+	position: relative;
+	height: 118px;
+	border-radius: 10px;
+}
+.visit_education-3{
+	font: normal normal 400 30px/43px Gilroy semiBold;
+}
+.visit_education-4{
+	color: #7f7f7f;
+	font: normal normal 400 21px/43px Gilroy semiBold;
+}

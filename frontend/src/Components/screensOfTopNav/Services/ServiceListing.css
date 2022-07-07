@@ -1,0 +1,66 @@
+
+.s-search-bar{
+    padding:12px 7.64% 16px 3.47%;
+    background: #ffffff;
+    border-top: 1px solid #D1D1D1;
+}
+.s-search-select{
+    width: 100%;
+}
+.s-search-inp .ant-input-affix-wrapper{
+    border: 1px solid #D1D1D1;
+border-radius: 10px !important;
+opacity: 0.7 !important;
+font: normal normal 400 16px Gilroy SemiBold;
+height: 40px;
+}
+.s-search-inp .ant-input-group-addon{
+    display: none;
+}
+.s-search-select .ant-select-selector{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #D1D1D1 !important;
+border-radius: 6px !important;
+opacity: 1 !important;
+height: 40px !important;
+}
+.s-search-select .ant-select-selection-item, .s-search-select .ant-select-selection-placeholder{
+    padding: 4px !important;
+    font: normal normal 400 16px Gilroy SemiBold;
+}
+.card-div-head{
+    font: normal normal 400 24px Gilroy SemiBold;
+    padding: 25px 50px;
+    margin: 0;
+}
+.s-price-tag{
+    border-radius: 2px !important;
+    border: 0 !important;
+    font: normal normal 400 14px/26px Gilroy SemiBold;
+    height: 26px;
+    padding: 2px 8px;
+    max-width: 100px;
+    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+.s-company-name{
+    color: #24262B;
+opacity: 1;
+font: normal normal 400 15px/26px Gilroy SemiBold;
+text-transform: uppercase;
+}
+.eye-icon, .like-icon{
+    color: #EE5050;
+    vertical-align: super;
+    padding: 2px;
+}
+.like-eye-text{
+    text-align: left;
+letter-spacing: 0px;
+color: #7B7B7B;
+font: normal normal 400 13px/26px Gilroy SemiBold;
+vertical-align: super;
+    padding: 0 20px 0 5px ;
+}

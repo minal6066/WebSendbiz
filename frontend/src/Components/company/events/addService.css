@@ -1,0 +1,85 @@
+.back-icon{
+    vertical-align: text-bottom;
+    color:#AFB5C0;
+    cursor: pointer;
+}
+.back-btn{
+    cursor: pointer;
+    color:#AFB5C0;
+    margin-left: 10px;
+}
+.add-service-form{
+    margin-top: 30px;
+}
+.add-service-form label{
+    color: #24262B;
+    opacity: 0.6;
+    font: normal normal 400 16px/32px Gilroy SemiBold;
+}
+.s-input-fields{
+    font: normal normal 400 18px/32px Gilroy SemiBold;
+    color: #24262B;
+    width: 100%;
+}
+.s-input-fields:focus,.s-input-fields:focus-within .ant-select-selector {
+        -webkit-box-shadow: 0 0 0 2px #EE505020 !important;
+     box-shadow: 0 0 0 2px #EE505020 !important;
+}
+.s-input-fields, .s-input-fields .ant-input, .s-input-fields .ant-select-selector  {
+    background-color: #ffffff;
+    border: 0 !important;
+    border-radius: 5px;
+    height: 50px !important;
+}
+.s-input-fields .ant-select-selector, .s-input-fields .ant-select-selector .ant-select-selection-item {
+    padding: 10px;
+    height: 50px !important;
+}
+.ant-select-multiple .ant-select-selector .ant-select-selection-item {
+    padding: 0px 10px;
+    height: 30px !important;
+    background: #EE505010 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    color: #EE5050;
+    font: normal normal 400 12px/32px Gilroy SemiBold;
+}
+.s-input-fields .ant-input-group-addon{
+    height: 37.97px;
+    background-color: red;
+    border: 0 !important;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: #ffffff !important;
+}
+.s-input-fields .ant-input-group-addon .ant-select-selection-item {
+    padding: 11px;
+    padding-right: 18px;
+}
+.s-input-fields .ant-input-group-addon .ant-select,.s-input-fields .ant-input-group-addon .ant-select-arrow{
+    font-weight: bold;
+    color: #ffffff !important;
+}
+.s-input-fields .ant-upload, .s-input-fields .ant-upload button{
+    width: 70%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    height: 50px !important;
+}
+.s-input-fields .ant-upload button{
+    border: 1px dashed #979797;
+    width: 100%;
+}
+.s-file-upload{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    border-radius: 25px;
+    height: 40px !important;
+    border-color: #EE5050;
+    color: #EE5050;
+    opacity: 1;
+    font-weight: bold;
+}
+.short-desc-input{
+    background-color: #ffffff !important;
+}

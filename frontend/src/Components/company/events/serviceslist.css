@@ -1,0 +1,49 @@
+.header-text{
+    font: normal normal 400 28px/32px Gilroy Bold;
+    display: block;
+    margin-top: 12px;
+}
+.add-service-btn{
+    background-color: #24262B !important;
+    width: 192px;
+    height: 50px;
+    color:#ffffff !important;
+    font: normal normal 600 16px/32px Gilroy Bold;
+    float: right;
+    border: 0 !important;
+    outline: 0 !important;
+    border-radius: 6px;
+}
+.sort-select .ant-select-selection-placeholder{
+    color: #000000;
+    font: normal normal 600 14px/32px Gilroy Bold;
+    opacity: 1;
+}
+.sort-select .ant-select-selector{
+    background: #FFFFFF 0% 0% no-repeat padding-box !important;
+    border: 0 !important;
+    border-radius: 10px !important;
+    opacity: 0.7;
+    outline: 0 !important;
+    padding: 8px 10px 0 20px !important;
+    height: 98% !important;
+    color: #000000;
+    font: normal normal 600 14px/32px Gilroy Bold;
+    opacity: 1;
+}
+.sort-select {
+    background: #FFFFFF 0% 0% no-repeat padding-box !important;
+    border: 1px solid #D1D1D1 !important;
+    border-radius: 10px !important;
+    opacity: 0.7;
+    outline: 0 !important;
+    /* padding: 12px; */
+    width: 90% !important;
+    height: 45px !important;
+}
+.service-input{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #D1D1D1;
+border-radius: 10px;
+opacity: 0.7;
+}

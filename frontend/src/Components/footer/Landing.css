@@ -1,0 +1,223 @@
+.home-outer-div{
+    margin-bottom: -46px;
+}
+.welcome-div{
+    background: #24262B 0% 0% no-repeat padding-box;
+opacity: 1;
+padding: 50px 0 100px;
+}
+.welcome-title{
+    text-align: center;
+letter-spacing: 0px;
+opacity: 0.93;
+font: normal normal 400 61px/69px Gilroy Bold;
+color: #FFFFFF;
+margin-bottom: 90px;
+}
+.welcome-subtext{
+    opacity: 0.93;
+    font: normal normal 400 30px/67px Gilroy Bold;
+    color: #FFFFFF;
+    margin-bottom: 57px;
+    text-align: center;
+}
+.landing-icons{
+    font: normal normal 400 17px Gilroy Bold;
+    color:#B02318;
+    vertical-align: super;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.landing-input-fields{
+height: 57px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #D1D1D1;
+border-radius: 6px !important;
+opacity: 1;
+font: normal normal 400 17px Gilroy SemiBold;
+width: 100%;
+top: 0;
+}
+.landing-input-fields input{
+
+    font: normal normal 400 17px Gilroy SemiBold;
+}
+.landing-select-icon{
+position: absolute;
+left: 10px;
+top: 17px;
+z-index: 100;
+}
+.landing-input-fields .ant-select-selector, .landing-input-fields .ant-select-selector .ant-select-selection-search input{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 0 !important;
+border-radius: 6px !important;
+opacity: 1 !important;
+height: 57px !important;
+}
+.landing-input-fields .ant-select-selection-item, .landing-input-fields .ant-select-selection-placeholder{
+    padding: 11px 25px 0 !important;
+    font: normal normal 400 17px Gilroy SemiBold;
+}
+.landing-dropdown{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #D1D1D1;
+border-radius: 7px;
+opacity: 1;
+width: inherit ;
+}
+.landing-btn{
+    background: #B02318 0% 0% no-repeat padding-box !important;
+border-radius: 6px;
+opacity: 1;
+width: 100%;
+height: 57px;
+color: #FFFFFF !important;
+font: normal normal 400 20px/24px Gilroy Bold;
+border: 0 !important;
+outline: 0 !important;
+}
+.offerings-div{
+    padding: 110px 0;
+    background-color: #FFFFFF;
+}
+.offerings-title{
+    text-align: center;
+font: normal normal 400 41px/48px Gilroy Bold;
+letter-spacing: 0px;
+color: #333333;
+opacity: 1;
+margin-bottom: 55px;
+}
+.offerings-card{
+    background-color: #00000080;
+    background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+border-radius: 22px;
+opacity: 1;
+cursor: pointer;
+box-shadow: 0px 3px 6px #00000029;
+height: 320px;
+/* width: 384px; */
+}
+.offerings-card:hover{
+    box-shadow: 0px 3px 6px #00000029;
+}
+.o-card-title{
+    padding: 145px 0 42px ;
+    text-align: center;
+    font: normal normal 400 32px/38px Gilroy Bold;
+    color: #FFFFFF !important;
+    text-decoration: none !important;
+}
+.o-card-subtext{
+    padding: 0 15px 80px ;
+    text-align: center;
+    font: normal normal 400 19px/21px Gilroy Medium;
+    color: #FFFFFF !important;
+    text-decoration: none !important;
+}
+.landing-link{
+    text-decoration: none !important;
+}
+.caters-div{
+    background: #F5F4F4 0% 0% no-repeat padding-box;
+opacity: 1;
+padding: 50px 0;
+}
+.caters-title{
+    text-align: center;
+font: normal normal 400 39px/46px Gilroy Medium;
+letter-spacing: 0px;
+color: #333333;
+opacity: 1;
+margin-bottom: 50px;
+}
+.caters-cad-outer-div{
+    padding: 0 18.89%;
+    display: flex;
+}
+.caters-card{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 22px;
+opacity: 1;
+width: 47%;
+margin-right: 6%;
+height: 451px;
+}
+.caters-card-title{
+    text-align: center;
+letter-spacing: -0.36px;
+color: #24262B;
+opacity: 1;
+font: normal normal 400 26px/32px Gilroy Bold;
+margin: 52px 0 13px;
+}
+.caters-card-subtext{
+    letter-spacing: -0.19px;
+    font: normal normal 400 14px/17px Gilroy SemiBold;
+color: #24262B;
+opacity: 0.5;
+text-align: center;
+margin-bottom: 35px;
+}
+.caters-icons{
+    color: #36B37E;
+    font-size: 20px;
+    margin-right: 8px;
+    vertical-align: text-bottom;
+}
+.unlimited-div{
+    margin-bottom: 22px;
+}
+.caters-subtext-2{
+    letter-spacing: -0.26px;
+color: #24262B;
+opacity: 1;
+font: normal normal 400 19px/23px Gilroy SemiBold;
+}
+
+.about-us-div{
+    padding: 50px 0 90px;
+    background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about-title{
+    text-align: center;
+font: normal normal 400 39px/69px Gilroy Medium;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+margin-bottom: 50px;
+}
+.about-subtext{
+    padding: 0 23% 0 19%;
+    text-align: center;
+font: normal normal normal 18px/21px Gilroy;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.contact-div{
+    background-color: #FFFFFF;
+    padding: 50px 0;
+}
+.contact-head{
+    text-align: center;
+font: normal normal 400 39px/70px Gilroy Medium;
+letter-spacing: 0px;
+color: #24262B;
+opacity: 1;
+margin-bottom: 24px;
+}
+.contact-subtext{
+    text-align: center;
+font: normal normal normal 19px/33px Gilroy;
+letter-spacing: 0px;
+color: #24262B;
+opacity: 1;
+margin-bottom: 44px;
+padding: 0 19%;
+}

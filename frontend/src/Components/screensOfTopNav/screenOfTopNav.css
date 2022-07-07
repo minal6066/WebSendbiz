@@ -1,0 +1,52 @@
+.jobs-count-on-jobs{
+	font: normal normal 400 24px/29px Gilroy semiBold;
+	padding-left : 50px;
+	padding-top : 23px;
+	letter-spacing: -0.33px;
+}
+.landing-select-icon2{
+	position: absolute;
+    left: 10px;
+    top: 8px;
+    z-index: 100;
+}
+.job-top-nav-bar{
+	background-color: white;
+	height:68px;
+	padding-top : 12px;
+	padding-left : 50px;
+	padding-bottom:16px;
+	padding-right:37px;
+}
+.job-search-job-nav-1{
+	width:70%;
+	height:39;
+	border-width: 0;
+	border:none;
+	outline:none;
+}
+.company-joblist-select-1{
+	width:100%;
+	order:none;
+	height:40px;
+	border-radius:12px;
+	background-color:white;
+	outline:none;
+}
+.job-select-in-job-list:after{
+	background-color:white; 
+}
+.job-select-in-job-list{
+	width: 100%;
+	border-radius: 10px;
+	padding: 10px 20px 10px 10px;
+	background-color: white;
+    outline: none;
+}
+.padding-in-job-search{
+	padding: 7px 10px 7px 30px;
+}
+.padding-in-job-datepicker{
+	padding: 9px 10px !important;
+    border-radius: 6px;
+}

@@ -1,0 +1,159 @@
+.jobListingcls-1 {
+  border: 1px solid #d1d1d1;
+  border-radius: 10px;
+  opacity: 0.7;
+}
+.jobListingclscard-1:active {
+  border: 3px solid #5981df;
+  border-radius: 10px;
+  opacity: 1;
+}
+.paginate-container {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+
+}
+.header-input-fields .ant-select-selector .ant-select-selection-search input {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0 !important;
+    border-radius: 6px !important;
+    opacity: 1 !important;
+    /*height: 52px !important;*/
+}
+.header-input-fields .ant-select-selector .ant-select-selection-search input:focus {
+  box-shadow: 0 0 0 1px rgb(238, 80, 80,0) !important;
+}
+.header-input-fields .ant-select-selector .ant-select-selection-search .ant-input-affix-wrapper-focused{
+  box-shadow: 0 0 0 1px rgb(238, 80, 80,0) !important;
+}
+.header-input-fields .ant-select-selector .ant-select-selection-search .ant-input-affix-wrapper{
+  border: 1px solid #d9d9d9 !important;
+  border-radius: 10px !important;
+  padding: 8px 10px !important;
+}
+.header-input-fields .ant-select-selector .ant-select-selection-search .ant-input-affix-wrapper:focus{
+  box-shadow: 0 0 0 0px rgb(24 144 255 / 0%) !important;
+
+}
+.header-input-fields .ant-select-selector .ant-select-selection-search .ant-input-affix-wrapper:hover{
+  border: 1px solid #d9d9d9 !important;
+  border-radius: 10px !important;
+}
+.landing-icons-2 {
+    font: normal normal 400 17px Gilroy Bold;
+    color: #B02318;
+    vertical-align: super;
+}
+.custom-container{
+  overflow: auto;
+  height: 66vh;
+}
+.right-card-border{
+  border-right: 1px solid #24262b38;
+}
+.company-card-6{
+  font: normal normal 400 16px/19px Gilroy semiBold;
+  letter-spacing: -0.22px;
+  color: #24262B;
+}
+.company-card-7{
+  letter-spacing: -0.19px;
+  color: #24262B;
+  opacity: 0.4;
+  font: normal normal 400 14px/17px Gilroy semiBold;
+}
+.company-card-8{
+  padding: 0 0 0 15px;
+}
+.active-page
+{
+color: #fff;
+border-radius: 50%;
+background: black;
+}
+
+a{
+	padding: 10px;
+}
+.job-card-1 {
+  padding-right: 6%;
+  padding-left: 7%;
+}
+
+.job-card-2 {
+  background-color: white;
+  border-radius: 6px;
+  height: 100%;
+  cursor: pointer;
+}
+.job-card-2:hover{
+  box-shadow: 0px 2px 24px #0000002A;
+}
+.job-card-3 {
+  font: normal normal 400 26px/31px Gilroy semiBold;
+  letter-spacing: -0.36px;
+  color: #24262b;
+  margin: 0;
+}
+.job-card-4 {
+  font: normal normal 400 16px/18px Gilroy semiBold;
+  letter-spacing: -0.21px;
+  color: #24262b;
+  margin: 0;
+}
+.job-card-5 {
+  font: normal normal 400 16px/18px Gilroy semiBold;
+  letter-spacing: -0.22px;
+  color: #00000080;
+  margin: 0;
+  padding: 5px 0px;
+}
+.job-card-6 {
+  list-style: none;
+  display: inline-flex;
+  font: normal normal 400 16px/18px Gilroy semiBold;
+  letter-spacing: -0.22px;
+  color: #00000080;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.job-card-6 li {
+  padding-right: 35px;
+}
+
+.job-card-6 > li > p {
+  margin: 0;
+}
+.job-card-7 {
+  font: normal normal 400 16px/18px Gilroy semiBold;
+  background: #ee505030;
+  border-radius: 2px;
+  color: #ee5050;
+  text-align: center;
+  padding: 2px 0px;
+}
+.job-card-8 {
+  font: normal normal 400 16px/18px Gilroy semiBold;
+  color: #5981df;
+}
+
+.remove-search-line > .ant-input-affix-wrapper > .ant-input:focus{
+  box-shadow: 0 0 0 0px rgb(238, 80, 80,0.2) !important;
+}
+.page-item.active .page-link
+{
+  color: #FFFFFF !important;
+  background-color: #24262B !important;
+  border-radius: 50% !important;
+}
+.page-link 
+{
+  background-color: #F4F6F9 !important;
+  border-radius: 50% !important;
+  color: #24262B !important;
+  font-weight: 600 !important;
+  border:0px !important;
+}

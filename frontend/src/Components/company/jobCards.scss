@@ -1,0 +1,54 @@
+.page-number-btn {
+  margin: 10px;
+  border-radius: 50%;
+  background-color: #24262b;
+  color: #fff;
+  padding: 5px;
+  width: 32px;
+  height: 32px;
+}
+.date-container {
+  display: flex;
+  justify-content: end;
+}
+.job-card-container {
+  height: 142px;
+  width: 100%;
+}
+.job-inner-container {
+  padding-left: 10px;
+}
+
+.selectedPage {
+  background-color: black;
+}
+.applied-count-container {
+  background-color: #f7dcdf;
+  padding: 4px 10px 4px 10px;
+  border-radius: 2px;
+  display: initial;
+  font: normal normal 400 12px/14px Gilroy semiBold;
+}
+
+.activePage
+{
+  margin: 10px;
+  border-radius: 50%;
+  background-color: #24262b;
+  color: #fff;
+  padding: 5px;
+  width: 32px;
+  height: 32px;
+}
+
+.pagination-container
+{
+margin:10px;
+cursor: pointer;
+}
+.pagination-side-btn{
+  color: #d4d6d9;
+}
+.ant-switch-checked{
+  background-color: #36B37E;
+}

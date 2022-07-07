@@ -1,0 +1,50 @@
+.main-header-logo{
+	font: normal normal bold 26px/32px Gilroy Bold;
+	text-align: left;
+	letter-spacing: 0px;
+	color: #333333;
+	display: inline-block;
+	padding-top: 20px;
+}
+.navbar-custom{
+	height: 80px;
+    padding: 0 7.7% 0 8.33% !important;
+    background: #FFFFFF;
+}
+.navcomp{
+	/* margin-left: 8.33%; */
+	/* margin-right: ; */
+  margin-left: auto !important; 
+  margin-right: 0 !important;
+  text-transform: uppercase;
+}
+.navbar-nav{
+	flex-direction: inherit !important;
+}
+
+.navbar-nav li{
+	padding-right: 15px;
+	padding-left: 15px;
+	
+}
+.navbar-nav{
+  font: normal normal 600 14px/17px Gilroy Bold;
+}
+.nav-link{
+	color: rgba(0,0,0,.9) !important;
+}
+.top-nav-icons{
+  font: normal normal 400 16px Gilroy Bold;
+  color: #EE5050 !important;
+  vertical-align: -webkit-baseline-middle !important;
+  cursor: pointer;
+}
+.dropdown-text{
+	color: #333333;
+	font: normal normal 400 14px Gilroy Bold;
+
+}
+.navbar-expand-lg > a{
+	color: #333333;
+	text-decoration: none;
+}

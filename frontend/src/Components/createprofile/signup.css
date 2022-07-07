@@ -1,0 +1,71 @@
+.px-top-signup{
+	padding-top: 30px;
+}
+.signup_div_img_1{
+	width: 100% !important;
+	height: 1080px;
+}
+.signup-button-input:checked~.signup-button-label::before{
+	color: red;
+	background-color: red;
+}
+
+input{
+	font: normal normal 600 12px/15px Gilroy;
+	color: #24262B !important;
+}
+.signup-right{
+	padding: 0;
+	text-align: right;
+    /*padding-left: 65px;*/
+}
+.sigunp-logo-with-name{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	display: flex;
+}
+.overflow-class-2{
+	overflow: auto;
+    height: 1080px;
+}
+
+.you_are_cls{
+	font: normal normal 600 16px/19px Gilroy semiBold !important;
+	color: #24262B !important;
+	opacity: 0.6;
+}
+
+.form-check-label-2{
+	font: normal normal normal 13px/15px Gilroy medium !important;
+	color: #333333 !important;
+	margin-bottom: 30px;
+	display: inline;
+}
+/*.form-group-signup{
+	margin-bottom: 26px;
+}*/
+.margin-top-for-side-nav-head{
+	margin: 20px 0px;
+}
+.terms-link{
+	color: rgb(176, 35, 24);
+	font: normal normal normal 13px/15px Gilroy medium;
+}
+.mb-signup-1{
+	margin: 0 0 30px 0;
+}
+.Toastify__toast--error {
+    background: #ea5c4d;
+}
+.youare {
+	margin-left: 0px !important;
+}
+
+.mb-signup-1 > .ant-checkbox-inner{
+	border: unset !important;
+}
+
+.mb-signup-1 > .ant-checkbox-wrapper > .ant-checkbox-indeterminate .ant-checkbox-inner::after {
+	background-color: #B02318 !important;
+}
